@@ -1,4 +1,4 @@
-# Binary Exponential of two numbers
+# `Binary Exponential of two numbers`
 ___
 ## If the size of (p < M)
 
@@ -51,7 +51,7 @@ void solve() {
 ```
 
 
-# ExtendedEuclidean Algorithm
+# `ExtendedEuclidean Algorithm`
 ___
 ```c++
 int egcd(int a, int b, int &x, int &y) {
@@ -72,7 +72,7 @@ void solve() {
 }
 
 ```
-# Modular Multiplicative Inverse
+# `Modular Multiplicative Inverse`
 ___
 ### Finding the Modular Inverse using Extended Euclidean algorithm
 ```c++
@@ -105,7 +105,43 @@ void solve() {
 	MMI(a);
 }
 ```
-# Floyd Warshall Algorithm 
+# `Euler's totient function`
+Euler's totient function, also known as phi-function $\phi(n)$ , counts the number of integers between 1 and  n  inclusive, which are coprime to  n. 
+[click here]([https://pages.github.com/](https://cp-algorithms.com/algebra/phi-function.html)).
+For more information [*Click here*](https://cp-algorithms.com/algebra/phi-function.html).
+```c++
+
+
+
+ll phi_fun(ll n) {
+        vector<ll>prime_factors;
+        ll ans = n, i;
+        for (i = 2; i * i <= n; i++) {
+                if (n % i == 0) {
+                        while (n % i == 0) {
+                                n /= i;
+                        }
+                        prime_factors.push_back(i);
+                }
+        }
+        if (n > 1) {
+                prime_factors.push_back(n);
+        }
+        for (auto p : prime_factors) {
+                ans *= (p - 1);
+                ans /= p;
+        }
+        return ans;
+}
+void solve() {
+        ll n;
+        cin >> n;
+        cout << phi_fun(n);
+
+}
+```
+#### Time complexity is O(nloglog(n)).
+# `Floyd Warshall Algorithm`
 ___
 ```c++
 #include <bits/stdc++.h>
@@ -152,7 +188,7 @@ void solve() {
 
 
 
-# Bellman Ford Algorithm 
+# `Bellman Ford Algorithm`
 ___
 
 | source       | destination           | cost  |
@@ -292,7 +328,7 @@ void bellmanFord(vector<edge>&graph) {
 | 0 | 2 | `0->1->2` | 
 | 0 | 3 | `0->1->4->3`| 
 | 0 | 4 | `0->1->4`| 
-# Segmented Seive
+# `Segmented Seive`
 ```c++
 
 #include <bits/stdc++.h>
@@ -355,3 +391,5 @@ int main()
         return 0;
 }
 ```
+### Complexity is O(n)
+
