@@ -1,0 +1,4 @@
+*Why use Numerical Methods? Introduction to Numerical Methods
+*Measuring Errors
+*Bisection method
+
