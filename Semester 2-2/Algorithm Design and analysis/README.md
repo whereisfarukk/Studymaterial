@@ -391,7 +391,178 @@ int main()
         return 0;
 }
 ```
+$\large Complexity\space is\space O(n)\space .$
+# Counting sort
+```c++
+void countSort(int array[], int size) {
+    int output[MAX];
+    int count[MAX];
+    int max = array[0];
+
+    // Here we find the largest item in the array
+    for (int i = 1; i < size; i++) { if (array[i] > max)
+            max = array[i];
+    }
+
+    // Initialize the count for each element in array to 0
+    for (int i = 0; i <= max; ++i) {
+        count[i] = 0;
+    }
+
+    // For each element we store the count
+    for (int i = 0; i < size; i++) {
+        count[array[i]]++;
+    }
+
+    // Store the cummulative count of each array
+    for (int i = 1; i <= max; i++)
+	{
+		count[i] += count[i - 1];
+	}
+	
+	// Search the index of each element of the actual array in count array, and
+	// place the elements in output array
+	for (int i = size - 1; i >= 0; i--) 
+    {
+        output[count[array[i]] - 1] = array[i];
+        count[array[i]]--;
+    }
+
+    // Transfer the sorted items into actual array
+    for (int i = 0; i < size; i++) {
+        array[i] = output[i];
+    }
+}
+```
+$\textrm{\Large Lets say , we have an array A =[1,2,4,3,0,1,7,1,4,3,0].  Sort this using counting sort .}$
+|  $\large index$  |  $0$   | $1$ | $2$ | $3$| $4$ | $5$| $6$ |$7$ |$8$ |$9$ |$10$ |$11$ |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:| 
+| $\large A$ | $1$ | $2$ | $4$ | $3$ | $0$ | $2$ | $1$ |$7$ |$1$ |$4$ |$3$ |$0$ |
+
+$\textrm{\large count[A[i]]++}$
+
+|  $\large index$  |  $0$   | $1$ | $2$ | $3$| $4$ | $5$| $6$ |$7$ |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|-----:| 
+| $\textrm{\large count}$ | $2$ | $3$ | $2$ | $2$ | $2$ | $0$ | $0$ |$1$ |
+
+$\textrm{\large count[i] += count[i - 1]}$
+
+|  $\large index$  |  $0$   | $1$ | $2$ | $3$| $4$ | $5$| $6$ |$7$ |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|-----:| 
+| $\textrm{\large count}$ | $2$ | $5$ | $7$ | $9$ | $11$ | $11$ | $11$ |$12$ |
+
+$\textrm{\large output[count[A[i]] - 1] = A[i]}$
+
+$\textrm{\large count[A[i]]--}$
+	
+|  $\large index$  |  $0$   | $1$ | $2$ | $3$| $4$ | $5$| $6$ |$7$ |$8$ |$9$ |$10$ |$11$ |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:| 
+| $\textrm{\large output}$ | $0$ | $0$ | $1$ | $1$ | $1$ | $2$ | $2$ |$3$ |$3$ |$4$ |$4$ |$7$ |
+
 ### Complexity is O(n)
+# Merge sort
+```C++
+void merge(int a[], int lb, int mid, int ub)
+{
+  int i = lb;
+  int j = mid + 1;
+  int k = 0;
+  int b[20], m, n;
+  while (i <= mid && j <= ub)
+  {
+    if (a[i] <= a[j])
+    {
+      b[k] = a[i];
+      i++; k++;
+    }
+    else
+    {
+      b[k] = a[j];
+      j++; k++;
+    }
+  }// end of while loop
+  if (i > mid)
+  {
+    while (j <= ub)
+    {
+      b[k] = a[j];
+      j++; k++;
+    }
+  }
+  else
+  {
+    while (i <= mid)
+    {
+      b[k] = a[i];
+      k++; i++;
+    }
+  }
+  for (i = lb; i <= ub; i++)
+  {
+    a[i] = b[i - lb];
+  }
+}
+```
+```C++
+void mergeshort(int a[], int lb, int ub)
+{
+  if (lb < ub)
+  {
+    int mid = (lb + ub) / 2;
+    mergeshort(a, lb, mid);
+    mergeshort(a, mid + 1, ub);
+    merge(a, lb, mid, ub);
+  }
+}
+```
+```mermaid
+graph TD;
+A(n) -->B(n/2)
+A(n) -->C(n/2)
+    B --> D(n/4)
+      D-->H(n/8)
+        H-.-P(1)
+      D-->I(n/8)
+        I-.-Q(1)
+    B --> E(n/4)
+      E-->J(n/8)
+        J-.-R(1)
+      E-->K(n/8)
+        K-.-S(1)
+    C -->F(n/4)
+      F-->L(n/8)
+        L-.-T(1)
+      F-->M(n/8)
+        M-.-U(1)
+    C -->G(n/4)
+      G-->N(n/8)
+        N-.-V(1)
+      G-->O(n/8)
+        O-.-W(1)
+```
+### Time Complexity analysis
+```math
+\large
+\begin{aligned} 
+T(n) &=2T(\frac{n}{2})+n \\
+       &=2[2T(\frac{n}{4})+ \frac{n}{2}]+n \\
+       &=2^2T(\frac{n}{4})+ n+n=2^2T(\frac{n}{2^2})+2n \\
+       &=2^2[2T(\frac{n}{8})+ \frac{n}{4}]+2n=2^3T(\frac{n}{2^3})+n+2n=2^3T(\frac{n}{2^3})+3n \\
+       &=\cdots \\
+       &=2^kT(\frac{n}{2^k})+nk \\
+       
+       Assume,\space\space\space T(\frac{n}{2^k})=T(1)\\
+       \frac{n}{2^k}=1 \\
+       n=2^k \\
+       k=log_2 n\\
+       So, 
+       T(n)&=2^{log_2 n}T(1)+nlog_2 n \\
+        &=n*1+nlog_2n \\
+	&=n+nlog_2 n \\
+	So\space the\space time\space comlexity\space is\space O(nlog_2 n)
+\end{aligned} 
+```
+
 # Quick Sort
 ```C++
 void quickshort(char list[],int low ,int high)
@@ -427,7 +598,44 @@ void quickshort(char list[],int low ,int high)
     }
 }
 ```
-$\Large Average\space case\space time\space complexity\space is\space O(n*logn)\space $
+### Time complexity anaysis
+#### For Best case-
+ $\Large \textbf Just \space like \space the\space merge\space sort\space .$
+ $\Large Average\space and\space best\space case\space time\space complexity\space is\space O(n*logn)\space $
+#### For worst case-
+```mermaid
+graph TD;
+A(n) -->B(1)
+A(n) -->C(n-1)
+ C-->D(1)
+ C-->E(n-2)
+  E-->F(1)
+  E-->G(n-3)
+   G-.-H(2)
+    H-->I(1)
+    H-->J(1)
+  
+```
+```math
+\large
+\begin{aligned} 
+T(n) &=T(n-1)+n \\
+     &=T(n-2)+(n-1)+n \\
+     &=T(n-3)+(n-2)+(n-1)+n \\
+     &=\cdots \\
+     &=T(n-k-1)+(n-k)+\cdots +(n-2)+(n-1)+n \\
+     
+  Assume , n-k-1=1 \\
+           k=n-2 \\
+	   So,\\
+	   T(n)&=T(n-(n-2)-1)+(n-(n-2))+\cdots +(n-2)+(n-1)+n \\
+	   &=1+2+3+\cdots +(n-2)+(n-1)+n \\
+	   &=\frac{n(n+1)}{2} \\ \\
+	   T(n)&=O(n^2) \\
+      
+\end{aligned} 
+```
+$\Large worst\space case\space time\space complexity\space is\space O(n^2)\space $
 # dynamic programming
 ### Fibonacci series
 ```C++
@@ -483,18 +691,18 @@ $Time\space complexity\space of\space the\space series\space is\space O(n)\space
 ## Longest common subsequence(LCS)
 ### Top-down approach-
 ```C++
-int lcs(char* X, char* Y, int m, int n,vector<vector<int> >& dp)
+int lcs(char* X, char* Y, int i, int j,vector<vector<int> >& dp)
 {
-    if (m == 0 || n == 0)
+    if (i == 0 || j == 0)
         return 0;
-    if (X[m - 1] == Y[n - 1])
-        return dp[m][n] = 1 + lcs(X, Y, m - 1, n - 1, dp);
+    if (X[i - 1] == Y[j - 1])
+        return dp[i][j] = 1 + lcs(X, Y, i - 1, j - 1, dp);
   
-    if (dp[m][n] != -1) {
-        return dp[m][n];
+    if (dp[i][j] != -1) {
+        return dp[i][j];
     }
-    return dp[m][n] = max(lcs(X, Y, m, n - 1, dp),
-                          lcs(X, Y, m - 1, n, dp));
+    return dp[i][j] = max(lcs(X, Y, i, j - 1, dp),
+                          lcs(X, Y, i - 1, j, dp));
 }
 ```
 ### Bottom-up approach-
@@ -530,14 +738,15 @@ $\large Time\space complexity\space of\space the\space series\space is\space O(n
  \end{aligned} 
 ```
  
-|  index  |  0   | 1A | 2E | 3D | 4F | 5H | 6R |
+|  index  |  $0$   | $1$```A``` | $2$```E``` | $3$```D``` | $4$```F``` | $5$```H``` | $6$```R``` |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:| 
 | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ |
-| 1A | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
-| 2B | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
-| 3C | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
-| 4D | $0$ | $1$ | $1$ | $2$ | $2$ | $2$ | $2$ |
-| 5G | $0$ | $1$ | $1$ | $2$ | $2$ | $2$ | $2$ |
-| 6H | $0$ | $1$ | $1$ | $2$ | $2$ | $3$ | $3$ |
+| $1$```A``` | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
+| $2$```B``` | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
+| $3$```C``` | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
+| $4$```D``` | $0$ | $1$ | $1$ | $2$ | $2$ | $2$ | $2$ |
+| $5$```G``` | $0$ | $1$ | $1$ | $2$ | $2$ | $2$ | $2$ |
+| $6$```H``` | $0$ | $1$ | $1$ | $2$ | $2$ | $3$ | $3$ |
 
 So the longest LCS length is 3.
+
