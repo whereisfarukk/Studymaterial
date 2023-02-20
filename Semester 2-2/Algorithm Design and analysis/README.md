@@ -1,3 +1,148 @@
+```mermaid
+flowchart TD;
+
+    root1((Number Theory))
+    
+    1(Sieve)
+    2(Euler Phi)
+    3(Divisor)
+    4(Big Mod)
+    5(EGCD)
+    6(MMI)
+    7(CRT)
+    8(Linear sieve)
+    9(Segment sieve)
+    style root1 fill:#424949
+    style 1 fill:#800020	
+    style 2 fill:#800020
+    style 3 fill:#800020	
+    style 4 fill:#800020 
+    style 5 fill:#800020
+    style 6 fill:#800020
+    style 7 fill:#800020
+    style 8 fill:#800020
+    style 9 fill:#800020
+    root1-->1
+    root1-->2
+    root1-->3
+    root1-->4
+    root1-->5
+    root1-->6
+    root1-->7
+    1-->8
+    1-->9
+    
+```
+
+<br>
+
+```mermaid
+flowchart TD;
+
+    root1((Graph))
+
+    1(Bellman Ford)
+    2(Floyd Warshall)
+    3(Ford Fulkerson)
+
+    style root1 fill:#424949
+    style 1 fill:#3498DB
+    style 2 fill:#3498DB
+    style 3 fill:#3498DB
+
+    root1-->1
+    root1-->2
+    root1-->3
+    
+```
+
+<br>
+
+```mermaid
+flowchart TD;
+
+    root1((Sorting))
+
+    1(Heap)
+    2(Merge)
+    3(Quick)
+    4(Count)
+    5(Radix)
+    6(Bucket)
+
+    style root1 fill:#424949
+    style 1 fill:#229954
+    style 2 fill:#229954
+    style 3 fill:#229954
+    style 4 fill:#229954
+    style 5 fill:#229954
+    style 6 fill:#229954
+
+    root1-->1
+    root1-->2
+    root1-->3
+    root1-->4
+    root1-->5
+    root1-->6
+    
+```
+
+<br>
+
+```mermaid
+flowchart TD;
+
+    root1{{String Matching}}
+
+    1(KMP)
+
+    style root1 fill:#424949
+    style 1 fill:#D35400
+
+    root1-->1
+
+```
+
+<br>
+
+```mermaid
+flowchart TD;
+
+    root1{{Hashing}}
+
+    1(Hash Table)
+    2(Mitigate Collision)
+
+    style root1 fill:#424949
+    style 1 fill:#34495E
+    style 2 fill:#34495E
+
+    root1-->1
+    root1-->2
+
+```
+
+<br>
+
+```mermaid
+flowchart TD;
+
+    root1{{Dynamic Programming}}
+    1(fibonacci)
+    2(0-1 Knapsack)
+    3(LCS)
+
+    style root1 fill:#424949
+    style 1 fill:#633974
+    style 2 fill:#633974
+    style 3 fill:#633974
+
+    root1-->1
+    root1-->2
+    root1-->3
+
+```
+
 # `Binary Exponential of two numbers`
 ___
 ## If the size of (p < M)
@@ -140,6 +285,92 @@ void solve() {
 
 }
 ```
+# Linear Sieve
+```c++
+const int N = 10000000;
+vector<int> lp(N+1);
+vector<int> pr;
+
+for (int i=2; i <= N; ++i) {
+    if (lp[i] == 0) {
+        lp[i] = i;
+        pr.push_back(i);
+    }
+    for (int j = 0; i * pr[j] <= N; ++j) {
+        lp[i * pr[j]] = pr[j];
+        if (pr[j] == lp[i]) {
+            break;
+        }
+    }
+}
+```
+$\large Run \space time \space Complexity\space is\space O(n)\space .$
+# `Segmented Seive`
+```c++
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+
+void solve() {
+        ll N = sqrt(1e10);
+        bool prime[N];
+        memset(prime, true, sizeof(prime));
+        for (int i = 2; i * i <= N; i++) {
+                if (prime[i]) {
+                        for (int j = i * i; j <= N; j += i) {
+                                prime[j] = false;
+                        }
+                }
+        }
+        vector<ll>primes;
+        primes.push_back(2);
+        for (int i = 3; i <= N; i += 2) {
+                if (prime[i]) {
+                        primes.push_back(i);
+                }
+        }
+        ll t;
+        cin >> t;
+        while (t--) {
+                ll l , r;
+                cin >> l >> r;
+                bool isPrime[r - l + 1];
+                memset(isPrime, true, sizeof(isPrime));
+                for (int i = 0; primes[i]*primes[i] <= r; i++) {
+                        ll currentPrime = primes[i];
+                        ll base = (l / currentPrime) * currentPrime;
+                        if (base < l) {
+                                base += currentPrime;
+                        }
+                        for (int j = base; j <= r ; j += currentPrime) {
+                                isPrime[j - l] = false;
+                                if (base == currentPrime) {
+                                        isPrime[base - l] = true;
+                                }
+                        }
+                }
+                for (int i = 0; i < r - l + 1; i++) {
+                        if (isPrime[i]) {
+                                if (l + i != 1) {
+                                        cout << l + i << endl;
+                                }
+                        }
+                }
+                cout << endl;
+        }
+}
+
+int main()
+{
+        solve();
+        return 0;
+}
+```
+$\large Complexity\space is\space O(n)\space .$
+
+
 #### Time complexity is O(nloglog(n)).
 # `Floyd Warshall Algorithm`
 ___
@@ -328,70 +559,7 @@ void bellmanFord(vector<edge>&graph) {
 | 0 | 2 | `0->1->2` | 
 | 0 | 3 | `0->1->4->3`| 
 | 0 | 4 | `0->1->4`| 
-# `Segmented Seive`
-```c++
 
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-
-
-void solve() {
-        ll N = sqrt(1e10);
-        bool prime[N];
-        memset(prime, true, sizeof(prime));
-        for (int i = 2; i * i <= N; i++) {
-                if (prime[i]) {
-                        for (int j = i * i; j <= N; j += i) {
-                                prime[j] = false;
-                        }
-                }
-        }
-        vector<ll>primes;
-        primes.push_back(2);
-        for (int i = 3; i <= N; i += 2) {
-                if (prime[i]) {
-                        primes.push_back(i);
-                }
-        }
-        ll t;
-        cin >> t;
-        while (t--) {
-                ll l , r;
-                cin >> l >> r;
-                bool isPrime[r - l + 1];
-                memset(isPrime, true, sizeof(isPrime));
-                for (int i = 0; primes[i]*primes[i] <= r; i++) {
-                        ll currentPrime = primes[i];
-                        ll base = (l / currentPrime) * currentPrime;
-                        if (base < l) {
-                                base += currentPrime;
-                        }
-                        for (int j = base; j <= r ; j += currentPrime) {
-                                isPrime[j - l] = false;
-                                if (base == currentPrime) {
-                                        isPrime[base - l] = true;
-                                }
-                        }
-                }
-                for (int i = 0; i < r - l + 1; i++) {
-                        if (isPrime[i]) {
-                                if (l + i != 1) {
-                                        cout << l + i << endl;
-                                }
-                        }
-                }
-                cout << endl;
-        }
-}
-
-int main()
-{
-        solve();
-        return 0;
-}
-```
-$\large Complexity\space is\space O(n)\space .$
 # Counting sort
 ```c++
 void countSort(int array[], int size) {
@@ -636,6 +804,79 @@ T(n) &=T(n-1)+n \\
 \end{aligned} 
 ```
 $\Large worst\space case\space time\space complexity\space is\space O(n^2)\space $
+# String
+//KMP search algorithm//
+```C++
+#include<stdio.h>
+#include<string.h>
+int lps[100];
+char pattern[100],str[100];
+void lps_value()
+{
+    int index=0,i,l=strlen(pattern);
+    lps[0]=0;
+    for(i=1;i<l;){
+        if(pattern[index]==pattern[i])
+        {
+            
+            lps[i]=index+1;
+            i++,index++;
+
+        }
+        else{
+            if(index!=0){
+                index=lps[index-1];
+            }
+            else{
+                lps[i]=0;
+                i++;
+            }
+        }
+    }
+
+}
+/*first we will create the lps array.Then we start to compare pattern string from index=0 and i=1.
+if two element are same the value of lps[i]  will be (index+1).if the element aren't match then index
+value will be pevious index lps value.and if previous index lps value is 0 then lps[i] will be 0.
+*/
+
+void kmp(){
+    int i,j=0,count=0;
+    for(i=0;i<strlen(str);){
+        if(str[i]==pattern[j]){
+            count++;
+            i++,j++;
+            if(count==strlen(pattern)){
+                printf("found\n");
+                break;
+            }
+        }
+        else{
+            if(j!=0){
+                j=lps[j-1];
+                count=j;
+            }
+            else
+            {
+                i++;
+            }
+        }
+    }
+}
+/*
+ kmp work the same way like we get the value of lps array.if we found that count become the lentgh of pattern 
+ then we can print 'found' .
+ */
+
+int main()
+{
+   
+    scanf("%s%*c%s",&str,&pattern);
+    lps_value();
+    kmp();
+    return 0;
+}
+ ```
 # dynamic programming
 ### Fibonacci series
 ```C++
@@ -738,7 +979,7 @@ $\large Time\space complexity\space of\space the\space series\space is\space O(n
  \end{aligned} 
 ```
  
-|  index  |  $0$   | $1$```A``` | $2$```E``` | $3$```D``` | $4$```F``` | $5$```H``` | $6$```R``` |
+|  $index$  |  $0$   | $1$```A``` | $2$```E``` | $3$```D``` | $4$```F``` | $5$```H``` | $6$```R``` |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----:| 
 | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ |
 | $1$```A``` | $0$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
@@ -749,4 +990,5 @@ $\large Time\space complexity\space of\space the\space series\space is\space O(n
 | $6$```H``` | $0$ | $1$ | $1$ | $2$ | $2$ | $3$ | $3$ |
 
 So the longest LCS length is 3.
+
 
