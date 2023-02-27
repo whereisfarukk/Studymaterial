@@ -1,4 +1,4 @@
-.- ### $\textrm{\large What will be covered in this course}$
+- ### $\textrm{\large What will be covered in this course}$
     - $\textrm{\large SOLID}$
     - $\textrm{\large 16 design pattern}$
     - $\textrm{\large Code smell}$
