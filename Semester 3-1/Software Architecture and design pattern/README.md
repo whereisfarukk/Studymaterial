@@ -11,6 +11,11 @@
          - $\textrm{\large polymorphism}$
          - $\textrm{\large encapsulation}$
          - $\textrm{\large abstraction}$
+         
+         
+- ## $\textrm{\Large 2nd Class}$
+    - $\textrm{\large Class diagram}$
+    - [all the resources](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
  
     
 
