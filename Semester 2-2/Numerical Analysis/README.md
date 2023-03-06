@@ -65,6 +65,28 @@ hold on;
 printf("%d",x);
 plot(x,fx(x),'rx');
 ```
+### False position method
+```Matlab
+f=@(x) 3*x-cos(x)-1;
+xq=0:0.1:10;
+plot(xq,f(xq));
+hold on;
+a=0;b=1;
+fa=f(a);
+fb=f(b);
+c=(a+b)/2;
+fc=f(c);
+while abs(fc)>0.0001
+  if fa*fc<0
+    b=c;
+  else 
+    a=c;
+  end
+  c=(a+b)/2;
+  fc=f(c); 
+endwhile
+plot(c,f(c),'rx');
+```
 # ODE
 ## Euler Method
 $\frac{dy}{dx}=f(x,y)$
