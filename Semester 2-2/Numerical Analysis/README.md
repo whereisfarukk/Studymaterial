@@ -110,6 +110,22 @@ for i=2:10
   x=x+h;
 endfor
 ```
+### jacobi iterative method
+```Matlab
+fx=@(y,z) (1/6)*(4-2*y+z);
+fy=@(x,z) (1/5)*(3-x-z);
+fz=@(x,y) (1/4)*(27-2*x-y);
+x_0=0;
+y_0=0;
+z_0=0;
+mat(1, : ) = [x_0,y_0,z_0];
+for i=2:10
+  x_0=fx(mat(i-1,2),mat(i-1,3));
+  y_0=fy(mat(i-1,1),mat(i-1,3));
+  z_0=fz(mat(i-1,1),mat(i-1,2));
+  mat(i,:)=[x_0,y_0,z_0];
+endfor
+```
 # ODE
 ## Euler Method
 $\frac{dy}{dx}=f(x,y)$
