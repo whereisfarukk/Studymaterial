@@ -98,6 +98,18 @@ while abs(x_0-g(x_0))>tol
   x_0=x_1;
 endwhile
 ```
+### Euler's Method
+```Matlab
+f=@(x,y) x+2*y;
+x=2;y=3;
+h=0.1;
+mat(1,:)=[x,y];
+for i=2:10
+  y=mat(i-1,2)+h*f(mat(i-1,1),mat(i-1,2));
+  mat(i,:)=[x+h,y];
+  x=x+h;
+endfor
+```
 # ODE
 ## Euler Method
 $\frac{dy}{dx}=f(x,y)$
