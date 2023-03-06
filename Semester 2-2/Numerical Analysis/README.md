@@ -87,6 +87,17 @@ while abs(fc)>0.0001
 endwhile
 plot(c,f(c),'rx');
 ```
+### Fixed Point Iteration
+```Matlab
+f=@(x) 2^x-5*x+2;
+g=@(x) (2^x+2)/5;
+x_0=0;
+tol=0.00001;
+while abs(x_0-g(x_0))>tol
+  x_1 = g(x_0)
+  x_0=x_1;
+endwhile
+```
 # ODE
 ## Euler Method
 $\frac{dy}{dx}=f(x,y)$
