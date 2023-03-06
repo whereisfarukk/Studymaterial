@@ -1,3 +1,4 @@
+### Bijection Method
 ```Matlab
 f=inline('x^3-2*x^2-4')
 a =  2;
@@ -49,6 +50,21 @@ Answers:
    2.59424   2.59448   2.59436   0.00046
    2.59424   2.59436   2.59430  -0.00013
    ```
+   
+### Newton raphson method
+```Matlab
+fx=@(x) 3*x-cos(x)-1;
+dx=@(x) 3+sin(x);
+xq=0:0.1:10;
+plot(xq,fx(xq));
+x=0;
+for i=0:10
+  x=x-(fx(x)/dx(x));
+endfor
+hold on;
+printf("%d",x);
+plot(x,fx(x),'rx');
+```
 # ODE
 ## Euler Method
 $\frac{dy}{dx}=f(x,y)$
