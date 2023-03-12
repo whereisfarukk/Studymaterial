@@ -17,7 +17,7 @@
     - $\textrm{\large Class diagram}$
     - [all the resources](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
     
-- ## $\textrm{\Large 3rd Class}$
+- ## $\textrm{\Large 3rd and 4th Class}$
     - $\textrm{\large SOLID Principle }$
     - [all the resources](https://shuhanmirza.medium.com/s-o-l-i-d-principle-the-superheros-guide-to-writing-clean-code-d67324506ecf)
  
