@@ -4,4 +4,11 @@
          - $\textrm{\large HTTP  methods  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
          - $\textrm{\large HTTP headers  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
          - $\textrm{\large HTTP status  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-         
+        
+- ## $\textrm{\Large 2nd Class}$
+    - $\textrm{\large HTTP}$
+         - $\textrm{\large HTTP Caching  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
+         - $\textrm{\large HTTP  Cookies  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+         - $\textrm{\large HTTP Cross-Origin Resource Sharing(CORS)  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+         - $\textrm{\large HTTP Connection management  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Connection_management_in_HTTP_1.x)
+         - $\textrm{\large Evolution of HTTP  }$[content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP)
