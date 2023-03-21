@@ -20,6 +20,8 @@ flowchart LR;
 18((Neamt))
 19((Hirsova))
 20((Eforie))
+style 1 fill:#355E3B
+style 13 fill:#800020
 1-- 75 ---2
 2-- 71 ---3
 3--151---4
