@@ -1,3 +1,6 @@
+## A* search algorithm
+$\textrm{\large A* search algorithm  }$[**_tutorial_**](https://www.youtube.com/watch?v=qVu0Fgde-LI)
+
 ```mermaid
 flowchart LR;
 1((Arack))
