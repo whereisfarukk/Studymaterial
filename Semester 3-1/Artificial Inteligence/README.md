@@ -3,7 +3,7 @@ $\textrm{\large A* search algorithm  }$[**_tutorial_**](https://www.youtube.com/
 
 ```mermaid
 flowchart LR;
-1((Arack))
+1((Arad))
 2((zerind))
 3((Oradea))
 4((Sibiu))
