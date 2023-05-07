@@ -1,0 +1,99 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int n;
+struct process{
+    int id;
+    int arrival_time;
+    int brust_time;
+    int completion_time;
+    int turn_around_time;
+    int waiting_time;
+};
+process p[100005];
+
+bool sorting_data(process a,process b){
+
+    if(a.arrival_time!=b.arrival_time){
+         return a.arrival_time<b.arrival_time;
+    }
+    return a.brust_time<b.brust_time;
+}
+
+void SJF(){
+    int complete,current_time,index,minimum;
+    double total_turn_around_time=0;
+    double total_waiting_time=0;
+
+    index=-1;
+    complete=0;
+    current_time=0;
+    minimum=INT_MAX;
+
+
+    while (complete<n){
+        for(int i=0;i<n;i++){
+            if(p[i].arrival_time<=current_time){
+                if(p[i].brust_time<minimum && p[i].completion_time==0){
+                    index=i;
+                    minimum=p[i].brust_time;
+                    //cout<<i<<" "<<p[i].arrival_time<<" "<<p[i].brust_time<<endl;
+                }
+            }
+        }
+       
+        if(index>=0){
+            
+            complete++;
+            minimum=INT_MAX;
+            current_time+=p[index].brust_time;
+            p[index].completion_time = current_time;
+            p[index].turn_around_time = p[index].completion_time - p[index].arrival_time;
+            p[index].waiting_time = p[index].turn_around_time - p[index].brust_time;
+
+            total_waiting_time +=p[index].waiting_time;
+            total_turn_around_time+= p[index].turn_around_time;
+            index = -1;
+        }
+        else{
+            current_time++;
+        }
+    }
+    
+    cout<<"Average Waiting Time: "<<(total_waiting_time/n)<<endl;
+    cout<<"Average Turn Around Time: "<<(total_turn_around_time/n)<<endl;
+
+}
+
+
+int main(){
+    
+    cout<<"Enter number of process : ";
+    cin>>n;
+    for(int i=0;i<n;i++){
+        //cout<<"Enter ID : ";
+        cin>>p[i].id;
+    }
+
+    for(int i=0;i<n;i++){
+       // cout<<"Enter process "<<i<<" arrival time : ";
+        cin>>p[i].arrival_time;
+    }
+
+    for(int i=0;i<n;i++){
+       // cout<<"Enter process "<<i<<" brust time : ";
+        cin>>p[i].brust_time;
+    }
+
+    sort(p,p+n,sorting_data);
+  
+    for(int i=0;i<n;i++){
+        cout<<p[i].id<<" "<<p[i].arrival_time<<" "<<p[i].brust_time<<endl;
+    }
+    
+
+    SJF();
+
+    return 0;
+}
