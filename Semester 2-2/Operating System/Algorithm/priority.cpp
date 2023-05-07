@@ -26,7 +26,7 @@ bool sorting_data(process a,process b){
     return a.brust_time<b.brust_time;
 }
 
-void SJF(){
+void Priority(){
     int complete,current_time,index,minimum;
     double total_turn_around_time=0;
     double total_waiting_time=0;
@@ -106,7 +106,7 @@ int main(){
     }
     
 
-    SJF();
+    Priority();
 
 
     return 0;
