@@ -1,5 +1,5 @@
 ```mermaid
-classDiagram
+classDiagram 
 Main--|>AbstructFactory
 AbstructFactory <|-- ConcreteFactory1
 AbstructFactory <|-- ConcreteFactory2
@@ -10,6 +10,7 @@ ProductA <|-- ConcreteProductA2
 ProductB <|-- ConcreteProductB1
 ProductB <|-- ConcreteProductB2
 class AbstructFactory{
+<<interface>>
 +createProductA(): ProductA
 +createProductB(): ProductB
 }
@@ -22,9 +23,11 @@ class ConcreteFactory2{
 +createProductB(): ProductB
 }
 class ProductA{
+<<interface>>
 +operationA()
 }
 class ProductB{
+<<interface>>
 +operationB()
 }
 class ConcreteProductA1{
