@@ -1,6 +1,6 @@
 package Creational_design_pattern.Prototype;
 
-public class Circle {
+public class Circle implements Cloneable{
     public String color;
     private int x;
     private int y;
