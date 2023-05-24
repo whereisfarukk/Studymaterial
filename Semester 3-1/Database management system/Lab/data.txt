@@ -1,0 +1,72 @@
+ROOMS:
+INSERT INTO room (room_id, occupancy_status, floor_number, block_number)
+VALUES
+('1017', 0, 1, 'B'),
+('1018', 0, 1, 'B'),
+('1019', 0, 1, 'B'),
+('1020', 0, 1, 'B'),
+('1021', 0, 1, 'B'),
+('1022', 0, 1, 'B'),
+('1023', 0, 1, 'B'),
+('1024', 0, 1, 'B'),
+('1025', 0, 1, 'B'),
+('1026', 0, 1, 'B'),
+('1027', 0, 1, 'B'),
+('1028', 0, 1, 'B'),
+('1029', 0, 1, 'B'),
+('1030', 0, 1, 'B'),
+('2001', 0, 2, 'A'),
+('2002', 0, 2, 'A'),
+('2003', 0, 2, 'A'),
+('2004', 0, 2, 'A'),
+('2005', 0, 2, 'A');
+
+STUDENT:
+INSERT INTO student (student_id, first_name, last_name, department, semester, phone, email, date_of_birth, fathers_name, mothers_name, present_address, permanent_address, guardians_phone, room_id)
+VALUES
+('2021731001', 'Masum', 'Iqbal', 'CHE', '2nd', '016xxxxxxxx', 'masum_iqbal00@student.sust.edu', '2001-12-29', 'Obaidul Khan', 'Nasrin Akter', 'Mirzapur, Tangail', 'Benapole, Jessore', '013xxxxxxxx', '1022'),
+('2020811037', 'Masum', 'Hossain', 'SWE', '7th', '013xxxxxxxx', 'masum_hossain01@student.sust.edu', '1998-01-01', 'Mostafa Kabir', 'Sharlina Tabassum', 'Gollamari, Khulna', 'Nabiganj, Habiganj', '016xxxxxxxx', '2011'),
+('2022731025', 'Masum', 'Kabir', 'ENG', '4th', '013xxxxxxxx', 'masum_kabir02@student.sust.edu', '1998-01-01', 'Omar Farooq', 'Karimunnesa', 'Karangir Chor, Dhaka', 'Pallabi, Dhaka', '016xxxxxxxx', '2022'),
+('2020731037', 'Faruk', 'Haque', 'SWE', '5th', '015xxxxxxxx', 'faruk_haque03@student.sust.edu', '1997-08-02', 'Mokbul Zakaria', 'Urmi Begum', 'Mahipal, Feni', 'Nilkhet, Dhaka', '014xxxxxxxx', '4014'),
+('2019811001', 'Sajid', 'Iqbal', 'ANP', '1st', '017xxxxxxxx', 'sajid_iqbal04@student.sust.edu', '1997-03-07', 'Mokbul Zakaria', 'Morium Akter', 'Bheramara, Khulna', 'Uttara, Dhaka', '014xxxxxxxx', '4027'),
+('2022811001', 'Selim', 'Ahmed', 'PME', '6th', '017xxxxxxxx', 'selim_ahmed05@student.sust.edu', '1999-07-19', 'Osman Goni', 'Karimunnesa', 'Mill Para, Kushtia', 'Pallabi, Dhaka', '016xxxxxxxx', '5029'),
+('2017491013', 'Raihan', 'Hasan', 'PSS', '1st', '014xxxxxxxx', 'raihan_hasan06@student.sust.edu', '2000-02-14', 'Alam Mia', 'Asma Begum', 'Rupganj, Narayanganj', 'Shaturia, Manikganj', '014xxxxxxxx', '3001'),
+('2020891001', 'Jawad', 'Kabir', 'BMB', '3rd', '015xxxxxxxx', 'jawad_kabir07@student.sust.edu', '2001-12-10', 'Osman Goni', 'Rafia Khanam', 'Potenga, Chittagong', 'Uttara, Dhaka', '014xxxxxxxx', '4010'),
+('2017811001', 'Jawad', 'Ahmed', 'ANP', '2nd', '013xxxxxxxx', 'jawad_ahmed08@student.sust.edu', '2002-03-31', 'Mokbul Zakaria', 'Karimunnesa', 'Mill Para, Kushtia', 'Gollamari, Khulna', '016xxxxxxxx', '3024'),
+('2022491049', 'Masum', 'Iqbal', 'PME', '5th', '017xxxxxxxx', 'masum_iqbal09@student.sust.edu', '2002-03-31', 'Giasuddin Ahmed', 'Sharlina Tabassum', 'Gollamari, Khulna', 'Dhamrai, Dhaka', '013xxxxxxxx', '1028'),
+('2019571025', 'Rafi', 'Ahmed', 'SWE', '2nd', '013xxxxxxxx', 'rafi_ahmed010@student.sust.edu', '1999-07-19', 'Nazibullah Khan', 'Sharlina Tabassum', 'Karangir Chor, Dhaka', 'Benapole, Jessore', '013xxxxxxxx', '4020'),
+('2018811001', 'Selim', 'Khan', 'PSS', '1st', '014xxxxxxxx', 'selim_khan011@student.sust.edu', '1997-03-07', 'Osman Goni', 'Shayla Khanam', 'Gollamari, Khulna', 'Uttara, Dhaka', '014xxxxxxxx', '3022'),
+('2022891001', 'Sabbir', 'Hossain', 'PME', '3rd', '015xxxxxxxx', 'sabbir_hossain012@student.sust.edu', '1998-01-01', 'Giasuddin Ahmed', 'Karimunnesa', 'Mahipal, Feni', 'Bheramara, Kushtia', '015xxxxxxxx', '2008'),
+('2017331049', 'Shamim', 'Hossain', 'SOC', '7th', '015xxxxxxxx', 'shamim_hossain013@student.sust.edu', '1999-07-19', 'Giasuddin Ahmed', 'Sharlina Tabassum', 'Ashulia, Dhaka', 'Pallabi, Dhaka', '016xxxxxxxx', '5004'),
+('2021411037', 'Sabbir', 'Ali', 'ENG', '8th', '015xxxxxxxx', 'sabbir_ali014@student.sust.edu', '2002-12-17', 'Giasuddin Ahmed', 'Saleh Begum', 'Sadarghat, Dhaka', 'Shaturia, Manikganj', '015xxxxxxxx', '5002');
+
+
+COMPLAINT:
+INSERT INTO complaint (complaint_type, complaint_description, date_received, date_resolved, student_id)
+VALUES
+('tap not working', 'the tap is broken', '2020-1-12', '2020-1-15', '2021731001'),
+('Light fuse', 'room tube lighte fused', '2021-5-19', '2021-5-22', '2020811037'),
+('bed broke', 'a part of my bed is broken', '2022-2-3', '2022-2-5', '2022731025'),
+('fan not working', 'fan doesnt starting', '2021-7-4', '2021-8-10', '2020731037'),
+('no electricity', 'the electricity connection of the whole room is gone', '2022-7-1', '2022-7-10', '2017811001'),
+('port not working', 'charging port is not working', '2023-3-23', '2023-4-10', '2017331049'),
+('table broke', 'reading table support is broken', '2023-2-21', '2023-2-28', '2018811001'),
+('table lamp broke', 'reading table lamp brken from falling', '2023-1-11', '2023-1-17', '2021411037');
+
+VISITORS:
+INSERT INTO visitors ('John Doe', '123-456-7890', '2023-05-23 09:00:00', '2023-05-23 17:00:00', '2021731001'),
+('Jane Smith', '987-654-3210', '2023-05-23 08:30:00', '2023-05-23 16:30:00', '2020811037'),
+('Michael Johnson', '555-123-4567', '2023-05-23 10:00:00', '2023-05-23 18:00:00', '2022731025'),
+('Emily Davis', '111-222-3333', '2023-05-23 09:30:00', '2023-05-23 17:30:00', '2020731037'),
+('David Wilson', '999-888-7777', '2023-05-23 08:00:00', '2023-05-23 16:00:00', '2019811001'),
+('Sarah Thompson', '444-555-6666', '2023-05-23 09:15:00', '2023-05-23 17:15:00', '2022811001'),
+('Daniel Anderson', '777-888-9999', '2023-05-23 09:45:00', '2023-05-23 17:45:00', '2017491013'),
+('Jessica Martinez', '222-333-4444', '2023-05-23 08:45:00', '2023-05-23 16:45:00', '2020891001'),
+('Matthew Taylor', '666-777-8888', '2023-05-23 08:15:00', '2023-05-23 16:15:00', '2017811001'),
+('Olivia Garcia', '888-999-0000', '2023-05-23 09:30:00', '2023-05-23 17:30:00', '2022491049'),
+('Christopher Robinson', '333-444-5555', '2023-05-23 10:30:00', '2023-05-23 18:30:00', '2019571025'),
+('Sophia Lewis', '555-666-7777', '2023-05-23 09:45:00', '2023-05-23 17:45:00', '2018811001'),
+('Andrew Lee', '111-222-3333', '2023-05-23 08:30:00', '2023-05-23 16:30:00', '2022891001'),
+('Ava Hall', '444-555-6666', '2023-05-23 09:00:00', '2023-05-23 17:00:00', '2017331049'),
+('Joseph Young', '777-888-9999', '2023-05-23 08:45:00', '2023-05-23 16:45:00', '2021411037');
+
