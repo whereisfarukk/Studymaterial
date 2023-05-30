@@ -57,13 +57,42 @@ $\textrm{\large Data flow:}$
   </li>
 </ol>
 
+### Protocol:
+$\textrm{\large Protocol:A protocol is a set of rules that govern data communications.}$
+-source/sender 
+-destination/receiver
+-channel/media
+#### Elements of protocol:
+i.message encoding
+ii.message formatting
+iii.message timing
+iv.message size
+v.message delivery option- unicast ,multicast,broadcast
 
 
 
+peer to peer network:
+ -no centralize administration
+ -all peers are same
+ -simple sharing application
+ -not scaleable
+ 
+ Classification of computer network:
+ LAN-Limites Area Network
+ MAN-Metropoliton Area Network
+ WAN-wide Area Network
 
-
-
-
+IP Addressing:IP mean Internet Protocol
+ two types of IP
+  i.IPv4
+  ii.IPv6
+  
+  1.Every nodes in the computer network is identified with the help of IP address.
+  2.Logical address.
+  3.Can change based on the location of the device.
+  4.Assigned by manually or dynamically.
+  5.Represented in deciamal and it has 4 octets.
+  6.0.0.0.0 to 255.255.255.255 (32 bits)
 
 
 
