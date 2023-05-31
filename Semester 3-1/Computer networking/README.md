@@ -103,24 +103,34 @@ $\textrm{v.message delivery option- unicast ,multicast,broadcast}$
   
   $\textrm{ii.IPv6}$
   
-  $\textrm{Charateristics of IP address}$
-  
-  $\textrm{1.Every nodes in the computer network is identified with the help of IP address.}$
-  
-  $\textrm{2.Logical address.}$
-  
-  $\textrm{3.Can change based on the location of the device.}$
-  
-  $\textrm{4.Assigned by manually or dynamically.}$
-  
-  $\textrm{5.Represented in deciamal and it has 4 octets.}$
-  
-  $\textrm{6.0.0.0.0 to 255.255.255.255 (32 bits)}$
+  #### Charateristics of IP address
+  <ol>
+  <li>$\textrm{Every nodes in the computer network is identified with the help of IP address.}$</li>
+  <li>$\textrm{Logical address.}$</li>
+  <li>$\textrm{Can change based on the location of the device.}$</li>
+  <li>$\textrm{Assigned by manually or dynamically.}$</li>
+  <li>$\textrm{Represented in deciamal and it has 4 octets.}$</li>
+  <li>$\textrm{Represented in hexadecimal.}$</li>
+  <li>$\textrm{0.0.0.0 to 255.255.255.255 (32 bits).}$</li>
+</ol>
 
+### MAC addressing 
+ $\textrm{Media access control}$
+ 
+ $\textrm{Router needs ->IP address}$
+ 
+ $\textrm{Switch needs -> MAC address}$
 
-
-
-
+$\textrm{Characteristics of MAC address}$
+<ol>
+  <li>$\textrm{Every node in the LAN is identified with the help of MAC address.}$</li>
+  <li>$\textrm{Physical address or hardware address.}$</li>
+  <li>$\textrm{Unique.}$</li>
+  <li>$\textrm{Can not change.}$</li>
+  <li>$\textrm{Assigned by the manufacturer.}$</li>
+  <li>$\textrm{Represented in hexadecimal.}$</li>
+  <li>$\textrm{Ex:70-20-84-00-ED-FC(48 bits).}$</li>
+</ol>
 
 
 
