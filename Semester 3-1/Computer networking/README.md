@@ -1,36 +1,36 @@
 
 $\textrm{\large computer network: A computer network is a set of nodes connected by communication link.}$
 <ul>
-<li>$nodes$</li>
-<li>$media$</li>
-<li>$service$</li>
+<li>$\textrm{nodes}$</li>
+<li>$\textrm{media}$</li>
+<li>$\textrm{service}$</li>
 </ul>
 
-Basic characteristics of compurter network-
+$\textrm{Basic characteristics of compurter network-}$
 <ol>
-  <li>Fault tollerence:
+  <li>$\textrm{Fault tollerence:}$
    <ul>
-     <li>$Continue working despite of failures$</li>
-     <li>$Ensuure no loss of service$</li>
+     <li>$\textrm{Continue working despite of failures}$</li>
+     <li>$\textrm{Ensuure no loss of service}$</li>
    </ul>
   </li>
-  <li>Scalability:
+  <li>$\textrm{Scalability:}$
    <ul>
-     <li>$Grow bosed on the needs.$</li>
-     <li>$have good performance after growth.$</li>
+     <li>$\textrm{Grow bosed on the needs.}$</li>
+     <li>$\textrm{Have good performance after growth.}$</li>
    </ul>
   </li>
-  <li>Quality of service:
+  <li>$\textrm{Quality of service:}$
    <ul>
-     <li>$set priorities.$</li>
-     <li>$manage data traffic to reduce data loss,delay.$</li>
+     <li>$\textrm{set priorities.}$</li>
+     <li>$\textrm{manage data traffic to reduce data loss,delay.}$</li>
    </ul>
   </li>
-  <li>Security:
+  <li>$\textrm{Security:}$
    <ul>
-     <li>$unouthorized access.$</li>
-     <li>$misuse.$</li>
-     <li>$forgery.$</li>
+     <li>$\textrm{unouthorized access.}$</li>
+     <li>$\textrm{misuse.}$</li>
+     <li>$\textrm{forgery.}$</li>
    </ul>
   </li>
 </ol>
@@ -39,19 +39,19 @@ $\textrm{\large Data communication:Data communication are the exchange of data b
 $\textrm{\large Data flow:}$
 
 <ol>
-  <li>Simplex:
+  <li>$Simplex:$
    <ul>
-     <li>$always unidirectional$</li>
+     <li>$\textrm{always unidirectional}$</li>
    </ul>
   </li>
-  <li>half-duplex:
+  <li>$Half-duplex:$
    <ul>
-     <li>$communication both direction but not in the same time.$</li>
+     <li>$\textrm{communication both direction but not in the same time.}$</li>
    </ul>
   </li>
-  <li>Full duplex:
+  <li>$Full-duplex:$
    <ul>
-     <li>$communication in the same time.$</li>
+     <li>$\textrm{communication in the same time.}$</li>
     
    </ul>
   </li>
@@ -59,28 +59,38 @@ $\textrm{\large Data flow:}$
 
 ### Protocol:
 $\textrm{\large Protocol:A protocol is a set of rules that govern data communications.}$
--source/sender 
--destination/receiver
--channel/media
+
+$-source/sender$
+
+$-destination/receiver$
+
+$-channel/media$
 #### Elements of protocol:
-i.message encoding
-ii.message formatting
-iii.message timing
-iv.message size
-v.message delivery option- unicast ,multicast,broadcast
+$\textrm{i.message encoding}$
+
+$\textrm{ii.message formatting}$
+
+$\textrm{iii.message timing}$
+
+$\textrm{iv.message size}$
+
+$\textrm{v.message delivery option- unicast ,multicast,broadcast}$
 
 
 
-peer to peer network:
- -no centralize administration
- -all peers are same
- -simple sharing application
- -not scaleable
+#### peer to peer network:
+ $-no centralize administration$
  
- Classification of computer network:
- LAN-Limites Area Network
- MAN-Metropoliton Area Network
- WAN-wide Area Network
+ $-all peers are same$
+ 
+ $-simple sharing application$
+ 
+ $-not scaleable$
+ 
+ #### Classification of computer network:
+ $\textrm{LAN-Limites Area Network}$
+ $\textrm{MAN-Metropoliton Area Network}$
+ $\textrm{WAN-wide Area Network}$
 
 IP Addressing:IP mean Internet Protocol
  two types of IP
