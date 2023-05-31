@@ -141,6 +141,30 @@ $\textrm{Characteristics of MAC address}$
 | IP addresses operate at the network layer (Layer 3)    |  MAC addresses operate at the data link layer (Layer 2)  |
 
 
+$\textrm{Switching : switching in computer network helps in deciding the best route for data transmission if there are multiple paths in a layer.}$
+
+switching -circ
+
+
+#### Layering in computer networking
+$\textrm{->layering means decomposing decomposing the problem into more managable component.}$
+
+$\textrm{\large Advantages:}$
+
+<ol>
+  <li>$\textrm{\large Modularity and Simplification:}$$\textrm{Layered design breaks down the network into separate parts,making it easier to understand, build, and fix.}$</li>
+  <li>$\textrm{\large Abstraction and Hierarchy:}$ $\textrm{Each layer hides complexities and focuses on its specific job, creating a clear structure.}$</li>
+  <li>$\textrm{\large Interoperability and Standardization:}$ $\textrm{ Layers use common protocols, enabling different devices from different brands to work together smoothly}$</li>
+  <li>$\textrm{\large Scalability and Flexibility:}$ $\textrm{  Layers can be added or changed independently to accommodate network growth or new technologies.}$</li>
+  <li>$\textrm{\large Troubleshooting and Debugging:}$ $\textrm{Issues can be pinpointed to specific layers, simplifying the process of identifying and fixing problems.}$</li>
+  <li>$\textrm{\large Security and Control:}$ $\textrm{Layers allow security measures to be implemented at specific levels to protect the network.}$</li>
+  <li>$\textrm{\large Educational and Documentation Benefits:}$ $\textrm{Layered design provides an organized way to teach, learn, and communicate about networking concepts.}$</li>
+</ol>
+
+Layyerd aArchitecture:
+-The OSI model.
+-The TCP/IP model.
+
 
 
 
