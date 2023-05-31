@@ -89,20 +89,33 @@ $\textrm{v.message delivery option- unicast ,multicast,broadcast}$
  
  #### Classification of computer network:
  $\textrm{LAN-Limites Area Network}$
+ 
  $\textrm{MAN-Metropoliton Area Network}$
+ 
  $\textrm{WAN-wide Area Network}$
 
-IP Addressing:IP mean Internet Protocol
- two types of IP
-  i.IPv4
-  ii.IPv6
+### IP Addressing:
+  $\textrm{\large IP mean Internet Protocol}$
   
-  1.Every nodes in the computer network is identified with the help of IP address.
-  2.Logical address.
-  3.Can change based on the location of the device.
-  4.Assigned by manually or dynamically.
-  5.Represented in deciamal and it has 4 octets.
-  6.0.0.0.0 to 255.255.255.255 (32 bits)
+  $\textrm{Two types of IP}$
+  
+  $\textrm{i.IPv4}$
+  
+  $\textrm{ii.IPv6}$
+  
+  $\textrm{Charateristics of IP address}$
+  
+  $\textrm{1.Every nodes in the computer network is identified with the help of IP address.}$
+  
+  $\textrm{2.Logical address.}$
+  
+  $\textrm{3.Can change based on the location of the device.}$
+  
+  $\textrm{4.Assigned by manually or dynamically.}$
+  
+  $\textrm{5.Represented in deciamal and it has 4 octets.}$
+  
+  $\textrm{6.0.0.0.0 to 255.255.255.255 (32 bits)}$
 
 
 
