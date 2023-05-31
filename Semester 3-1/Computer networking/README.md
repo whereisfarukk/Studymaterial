@@ -114,7 +114,7 @@ $\textrm{v.message delivery option- unicast ,multicast,broadcast}$
   <li>$\textrm{0.0.0.0 to 255.255.255.255 (32 bits).}$</li>
 </ol>
 
-### MAC addressing 
+#### MAC addressing 
  $\textrm{Media access control}$
  
  $\textrm{Router needs ->IP address}$
@@ -132,6 +132,13 @@ $\textrm{Characteristics of MAC address}$
   <li>$\textrm{Ex:70-20-84-00-ED-FC(48 bits).}$</li>
 </ol>
 
+| IP adress           | MAC address  |
+| -------------| -----:|
+|IP addresses is dynamic |MAC addresses are  permanent|
+| 32 bits      |  48 bits |
+| Represented inn decimal      |    Represented in hexadecimal |
+|Router needs IP address to forward data | Switch needs MAC address to forward data  |
+| IP addresses operate at the network layer (Layer 3)    |  MAC addresses operate at the data link layer (Layer 2)  |
 
 
 
