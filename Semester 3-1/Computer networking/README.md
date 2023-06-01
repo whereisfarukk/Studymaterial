@@ -177,6 +177,62 @@ $\textrm{\large Characteristics of OSI model}$
 $\textrm{\large Purpose of  of OSI model}$
 
 $\textrm{\large The purpose of the OSI model is to show how to faciliate comminication between different systems without requiring}$ <br> $\textrm{\large changes to the lagic of the uunderlying hardware and software.}$
+#### Layers in OSI model:
+
+| Application layer       |    7th layer        | Away  |
+| ------------- |:-------------:| -----:|
+| Presentation layer      |6th layer | Pizza |
+| Session Layer      | 5th layer      |  Sausage |
+| Transport layer | 4th layer      |    Throw |
+| Network layer      |3rd layer | Not |
+| Data link layer      | 2nd layer      |  Do |
+| Physical layer | 1st layer     |    Please |
+
+
+
+## Chapter 3:
+$\textrm{\large Data must be transfered into signnals,for transmission}
+
+signals->Analog,Digital
+![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhoto.png)
+
+Signals ->Periodic ,non-periodic
+Peak-amplitude:Value of a signal at its highest intennsity.
+Unit:Volts.
+![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhoto.png)
+Period:Amounnt of time required by a signal to complete 1 cycle.
+Unit:second.
+Frequency:No. of period in 1 second .
+unit :Hertz.
+Phase:Describe the position of a wave relative to time 0.
+unit:radian/degree/
+wave-length:Distance travel by a signal in 1 cycle.
+
+Composite signal:Combination of single Analog waves.
+Band-width:Range of frequencies present in a composite signal.
+Digital signals:Digital signals consist of LEVEL.
+
+Bit Rate:Number of bits sent per second.
+unit:bits per seconnd.
+
+math:5 pages -> 20 lines ,each line ->15 character,1 character->8 bits
+ans:5*20*15*8=12000 bps.
+
+Bit length: Distance occupied by one bit on a transmission method.
+
+Digital signal can be transmitter by ->Baseband transmission->Broadband transmission
+
+i)
+
+
+
+
+
+
+
+
+
+
 
 
 
