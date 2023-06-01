@@ -161,11 +161,22 @@ $\textrm{\large Advantages:}$
   <li>$\textrm{\large Educational and Documentation Benefits:Layered design provides an organized way to teach, learn, and communicate about networking concepts.}$</li>
 </ol>
 
-Layyerd aArchitecture:
+#### Layyerd aArchitecture:
 -The OSI model.
 -The TCP/IP model.
 
 
+$\textrm{\large Characteristics of OSI model}$
+<ul>
+<li>$\textrm{OSI stands for open system interconnection}$</li>
+<li>$\textrm{It is a model for understanding and desiging a network architecture that is flexible ,robust, and interoperable.}$</li>
+<li>$\textrm{Developed by the international standards for organization.}$</li>
+<li>$\textrm{The OSI model is not a protocol/}$</li>
+</ul>
+
+$\textrm{\large Purpose of  of OSI model}$
+
+$\textrm{\large The purpose of the OSI model is to show how to faciliate comminication between different systems without requiring}$ <br> $\textrm{\large changes to the lagic of the uunderlying hardware and software.}$
 
 
 
