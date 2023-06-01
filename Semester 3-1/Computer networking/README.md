@@ -152,13 +152,13 @@ $\textrm{->layering means decomposing decomposing the problem into more managabl
 $\textrm{\large Advantages:}$
 
 <ol>
-  <li>$\textrm{\large Modularity and Simplification:}$$\textrm{Layered design breaks down the network into separate parts,making it easier to understand, build, and fix.}$</li>
-  <li>$\textrm{\large Abstraction and Hierarchy:}$ $\textrm{Each layer hides complexities and focuses on its specific job, creating a clear structure.}$</li>
-  <li>$\textrm{\large Interoperability and Standardization:}$ $\textrm{ Layers use common protocols, enabling different devices from different brands to work together smoothly}$</li>
-  <li>$\textrm{\large Scalability and Flexibility:}$ $\textrm{  Layers can be added or changed independently to accommodate network growth or new technologies.}$</li>
-  <li>$\textrm{\large Troubleshooting and Debugging:}$ $\textrm{Issues can be pinpointed to specific layers, simplifying the process of identifying and fixing problems.}$</li>
-  <li>$\textrm{\large Security and Control:}$ $\textrm{Layers allow security measures to be implemented at specific levels to protect the network.}$</li>
-  <li>$\textrm{\large Educational and Documentation Benefits:}$ $\textrm{Layered design provides an organized way to teach, learn, and communicate about networking concepts.}$</li>
+  <li>$\textrm{\large Modularity and Simplification:Layered design breaks down the network into separate parts,making it easier to understand, build, and fix.}$</li>
+  <li>$\textrm{\large Abstraction and Hierarchy:Each layer hides complexities and focuses on its specific job, creating a clear structure.}$</li>
+  <li>$\textrm{\large Interoperability and Standardization:Layers use common protocols, enabling different devices from different brands to work together smoothly}$</li>
+  <li>$\textrm{\large Scalability and Flexibility: Layers can be added or changed independently to accommodate network growth or new technologies.}$</li>
+  <li>$\textrm{\large Troubleshooting and Debugging:Issues can be pinpointed to specific layers, simplifying the process of identifying and fixing problems.}$</li>
+  <li>$\textrm{\large Security and Control:Layers allow security measures to be implemented at specific levels to protect the network.}$</li>
+  <li>$\textrm{\large Educational and Documentation Benefits:Layered design provides an organized way to teach, learn, and communicate about networking concepts.}$</li>
 </ol>
 
 Layyerd aArchitecture:
