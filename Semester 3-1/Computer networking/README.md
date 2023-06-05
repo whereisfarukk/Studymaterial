@@ -253,6 +253,13 @@ EX:Converting the IPv4 address from dotted-decimal to binary notation.
 10010001 00001110 00000110  00001000
 
 
+|  $.$  |  $First Byte$   | $Second Byte$ | $Third Byte$ | $Fourth Byte$ |
+| ------------- |:-------------:|:-------------:|:-------------:| -----:| 
+| $Class A$ | $0$ | |  |  | 
+| $Class B$ | $1$ |  |  |  |
+| $Class C$ | $110$ |  | |  |
+| $Class D$ | $1110$ | |  |  |
+| $Class E$ | $1111$ | | |   |
 
 
 
