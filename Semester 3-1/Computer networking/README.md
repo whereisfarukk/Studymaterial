@@ -283,6 +283,11 @@ $\textrm{\Large \bf Subnet mask}$
 
 $\textrm{\large A subnet mask is a 32 bits address used to distinguish between a network address and a host address in IP address.}$
 
+<ul>
+<li>$\textrm{To define the network and host portion of an address, a device use a separate 32-bit patterns called a subnet mask.}$</li>
+<li>$\textrm{The subnet mask does not actually contain the network or host portion of an IPv4 address ,it just says where to look}$ <br> $\textrm{for these portion in the given IPv4 address.}$</li>
+</ul>
+
 $\textrm{\Large What is Subnetting?}$
 
 $\textrm{\large Subnetting is the practice of dividing a network into two or smaller networks. It increases routing}$ <br> $\textrm{\large efficiency, which helps to enhance the security of the network and reduces the size of the broadcast domain.}$
@@ -291,3 +296,13 @@ $\textrm{\large IP Subnetting designates high-order bits from the host as part o
 
 $\textrm{\large It also helps you to reduce the size of the routing tables, which is stored in routers. This method also}$ <br> $\textrm{\large helps you to extend the existing IP address base and restructures the IP address.}$
 
+  #### Reasons for using Subnetting:
+  <ol>
+  <li>$\textrm{It helps you to maximise IP addressing efficiency.}$</li>
+  <li>$\textrm{Extend the life of IPV4.}$</li>
+  <li>$\textrm{Public IPV4 Addresses are scarce.}$</li>
+  <li>$\textrm{IPV4 Subnetting reduces network traffic by eliminating collision and broadcast traffic and thus improves overall performance.}$</li>
+  <li>$\textrm{Optimized IP network performance.}$</li>
+  <li>$\textrm{Facilitates spanning of large geographical distances.}$</li>
+  <li>$\textrm{Subnetting process helps to allocate IP addresses that prevent large numbers of IP network addresses from remaining unused.}$</li>
+</ol>
