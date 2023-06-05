@@ -231,6 +231,33 @@ i)
 
 
 
+IP address:
+-An IPv4 addess is a 32 bit address that uniquely and universally defines the conncection of a device ( For example a computer or a router ) to the internet.
+-An IPv4 address is a 32 bits long.
+-Two devices on the internet can never have the same address at the same time.
+-The address space of IPv4 is 2^32 or 4294967296 ( more than 4 billion).
+Notations:
+-There are two prevalent notations to show on IPv4 address:Binary and dotted decimal notation.
+-Binary notation :01110101 10010101 00011101 00000010
+Dotted decimal notation:117:149:29:2
+Notation of IPv4 address :A:B:C:D(only 4 octates)
+0<=A,B,C,d<=255
+0.0.0.0 to 255.255.255.255
+Converting IP address from binary to decimal:
+EX:Convert the IPv4 address from binary to dotted decimal notation.
+10000001 00001011 01001011 11101111
+129       11         75        239
+Converting IP address from decimal to binary:
+EX:Converting the IPv4 address from dotted-decimal to binary notation.
+145.14.6.8
+10010001 00001110 00000110  00001000
+
+
+
+
+
+
+
 
 
 
