@@ -194,12 +194,12 @@ $\textrm{\large The purpose of the OSI model is to show how to faciliate commini
 $\textrm{\large Data must be transfered into signnals,for transmission}
 
 signals->Analog,Digital
-![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhoto.png)
+![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhot.png)
 
 Signals ->Periodic ,non-periodic
 Peak-amplitude:Value of a signal at its highest intennsity.
 Unit:Volts.
-![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhoto.png)
+![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhot.png)
 Period:Amounnt of time required by a signal to complete 1 cycle.
 Unit:second.
 Frequency:No. of period in 1 second .
@@ -269,6 +269,15 @@ EX:Converting the IPv4 address from dotted-decimal to binary notation.
 | $Class C$ | $192-223$ |  | |  |
 | $Class D$ | $224-239$ | |  |  |
 | $Class E$ | $240-255$ | | |   |
+
+|  $\textrm{Address classes}$  |  $\textrm{First octet range in decimal}$   | $\textrm{First octet bits}$ | $\textrm{Network and host portiion}$ | $\textrm{Default mask}$ |$\textrm{Number of possible network and hosts per network}$ |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:| -----:| 
+| $\textrm{Class A}$ | $0-127$ |$\textrm{{\color{blue}0}0000000-{\color{blue}0}1111111}$ |$\textrm{N.H.H.H}$ | $\textrm{255.0.0.0}$|$\textrm{128 nets(27)}$   | 
+| $\textrm{Class B}$ | $128-191$ | $\textrm{{\color{blue}10}000000-{\color{blue}10}111111}$ | $\textrm{N.N.H.H}$|$\textrm{255.255.0.0} $ | $\textrm{16,384 nets(214)}$  |
+| $\textrm{Class C}$ | $192-223$ | $\textrm{{\color{blue}110}00000-{\color{blue}110}11111}$ |$\textrm{N.N.N.H}$| $\textrm{255.255.255.0}$ | $\textrm{209150 nets(221)}$ |
+| $\textrm{Class D}$ | $224-239$ |$\textrm{{\color{blue}1110}0000-{\color{blue}1110}1111}$ | $\textrm{NA (multicast)}$|  $\textrm{-}$ | $\textrm{-}$ |
+| $\textrm{Class E}$ | $240-255$ | $\textrm{{\color{blue}1111}0000-{\color{blue}1111}1111}$|$\textrm{NA (Experimantal)}$|  $\textrm{-}$ |  $\textrm{-}$ |
+
 
 
 
