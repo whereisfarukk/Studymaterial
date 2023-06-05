@@ -270,7 +270,7 @@ EX:Converting the IPv4 address from dotted-decimal to binary notation.
 | $Class D$ | $224-239$ | |  |  |
 | $Class E$ | $240-255$ | | |   |
 
-|  $\textrm{Address classes}$  |  $\textrm{First octet range in decimal}$   | $\textrm{First octet bits}$ | $\textrm{Network and host portiion}$ | $\textrm{Default mask}$ |$\textrm{Number of possible network and hosts per network}$ |
+|  $\textrm{Address classes}$  |  $\textrm{First octet range in decimal}$   | $\textrm{First octet bits}$ <br> $\textrm{{\color{blue}Blue dots do not change}}$ | $\textrm{Network and host portiion}$ | $\textrm{Default mask}$ |$\textrm{Number of possible network and hosts per network}$ |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:| -----:| 
 | $\textrm{Class A}$ | $0-127$ |$\textrm{{\color{blue}0}0000000-{\color{blue}0}1111111}$ |$\textrm{N.H.H.H}$ | $\textrm{255.0.0.0}$|$\textrm{128 nets(27)}$   | 
 | $\textrm{Class B}$ | $128-191$ | $\textrm{{\color{blue}10}000000-{\color{blue}10}111111}$ | $\textrm{N.N.H.H}$|$\textrm{255.255.0.0} $ | $\textrm{16,384 nets(214)}$  |
