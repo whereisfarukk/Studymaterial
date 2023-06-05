@@ -279,11 +279,15 @@ EX:Converting the IPv4 address from dotted-decimal to binary notation.
 | $\textrm{Class E}$ | $240-255$ | $\textrm{{\color{blue}1111}0000-{\color{blue}1111}1111}$|$\textrm{NA (Experimantal)}$|  $\textrm{-}$ |  $\textrm{-}$ |
 
 
+$\textrm{\Large \bf Subnet mask}$
 
+$\textrm{\large A subnet mask is a 32 bits address used to distinguish between a network address and a host address in IP address.}$
 
+$\textrm{\Large What is Subnetting?}$
 
+$\textrm{\large Subnetting is the practice of dividing a network into two or smaller networks. It increases routing}$ <br> $\textrm{\large efficiency, which helps to enhance the security of the network and reduces the size of the broadcast domain.}$
 
+$\textrm{\large IP Subnetting designates high-order bits from the host as part of the network prefix. This method divides a}$ <br> $\textrm{\large network into smaller subnets.}$
 
-
-
+$\textrm{\large It also helps you to reduce the size of the routing tables, which is stored in routers. This method also}$ <br> $\textrm{\large helps you to extend the existing IP address base and restructures the IP address.}$
 
