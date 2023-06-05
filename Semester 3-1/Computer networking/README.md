@@ -262,6 +262,13 @@ EX:Converting the IPv4 address from dotted-decimal to binary notation.
 | $Class E$ | $1111$ | | |   |
 
 
+|  $.$  |  $First Byte$   | $Second Byte$ | $Third Byte$ | $Fourth Byte$ |
+| ------------- |:-------------:|:-------------:|:-------------:| -----:| 
+| $Class A$ | $0-127$ | |  |  | 
+| $Class B$ | $128-191$ |  |  |  |
+| $Class C$ | $192-223$ |  | |  |
+| $Class D$ | $224-239$ | |  |  |
+| $Class E$ | $240-255$ | | |   |
 
 
 
