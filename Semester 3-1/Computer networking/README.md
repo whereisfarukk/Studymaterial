@@ -336,7 +336,7 @@ $\textrm{172.16.165.2}$
 
 $\textrm{Subnet mask:255.255.0.0;{\color{green} same N/W}}$
 
-$\textrm{They need a switch for communication.}$
+$\star\textrm{\large  We {\color{green}can use} class-C subnet mask for class-A ,class-B,class-C IP address.But for class-C we {\color{red}can't}}$<br>$\textrm{\large  {\color{red}use} class-A or class-B subnet mask.}$
 
 
 
