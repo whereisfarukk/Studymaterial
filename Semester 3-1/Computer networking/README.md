@@ -306,3 +306,37 @@ $\textrm{\large It also helps you to reduce the size of the routing tables, whic
   <li>$\textrm{Facilitates spanning of large geographical distances.}$</li>
   <li>$\textrm{Subnetting process helps to allocate IP addresses that prevent large numbers of IP network addresses from remaining unused.}$</li>
 </ol>
+
+$\textrm{\large Ex1:}$
+
+$\textrm{10.10.10.1}$
+
+$\textrm{10.10.20.16}$
+
+$\textrm{subnet musk:255.0.0.0;{\color{green} same N/W}}$
+
+
+$\textrm{\large Ex2:}$
+
+$\textrm{10.10.10.1}$
+
+$\textrm{10.10.20.16}$
+
+$\textrm{subnet musk:255.255.255.0;{\color{red} different N/W}}$
+
+$\textrm{They need a switch for communication.}$
+
+
+
+$\textrm{\large Ex3:}$
+
+$\textrm{172.16.200.1}$
+
+$\textrm{172.16.165.2}$
+
+$\textrm{Subnet mask:255.255.0.0;{\color{green} same N/W}}$
+
+$\textrm{They need a switch for communication.}$
+
+
+
