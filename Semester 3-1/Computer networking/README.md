@@ -161,7 +161,7 @@ $\color{red}\textrm{\large Advantages:}$
   <li>$\textrm{\large {\color{#708090}Educational and Documentation Benefits} : Layered design provides an organized way to teach, learn, and communicate about networking concepts.}$</li>
 </ol>
 
-#### Layyerd aArchitecture:
+#### Layerd Architecture:
 -The OSI model.
 -The TCP/IP model.
 
@@ -191,36 +191,45 @@ $\textrm{\large The purpose of the OSI model is to show how to faciliate commini
 
 
 ## Chapter 3:
-$\textrm{\large Data must be transfered into signnals,for transmission}
+$\textrm{\large Data must be transfered into signnals,for transmission}$
 
-signals->Analog,Digital
+$\textrm{\large signals->Analog,Digital}$
+[This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhot.png)
+
+$\textrm{\large Signals ->Periodic ,non-periodic}$
+
+$\textrm{\large Peak-amplitude:Value of a signal at its highest intennsity.}$
+$\textrm{\large Unit:Volts.}$
 ![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhot.png)
 
-Signals ->Periodic ,non-periodic
-Peak-amplitude:Value of a signal at its highest intennsity.
-Unit:Volts.
-![This is an image](https://github.com/whereisfarukk/JavaQuizApplication/blob/main/images/JavaLoginPagesPhot.png)
-Period:Amounnt of time required by a signal to complete 1 cycle.
-Unit:second.
-Frequency:No. of period in 1 second .
-unit :Hertz.
-Phase:Describe the position of a wave relative to time 0.
-unit:radian/degree/
-wave-length:Distance travel by a signal in 1 cycle.
+$\textrm{\large Period:Amounnt of time required by a signal to complete 1 cycle.}$
 
-Composite signal:Combination of single Analog waves.
-Band-width:Range of frequencies present in a composite signal.
-Digital signals:Digital signals consist of LEVEL.
+$\textrm{\large Unit:second.}$
 
-Bit Rate:Number of bits sent per second.
-unit:bits per seconnd.
+$\textrm{\large Frequency:No. of period in 1 second .}$
+$\textrm{\large unit :Hertz.}$
 
-math:5 pages -> 20 lines ,each line ->15 character,1 character->8 bits
-ans:5*20*15*8=12000 bps.
+$\textrm{\large Phase:Describe the position of a wave relative to time 0.}$
+$\textrm{\large unit:radian/degree/}$
 
-Bit length: Distance occupied by one bit on a transmission method.
+$\textrm{\large wave-length:Distance travel by a signal in 1 cycle.}$
 
-Digital signal can be transmitter by ->Baseband transmission->Broadband transmission
+$\textrm{\large Composite signal:Combination of single Analog waves.}$
+
+$\textrm{\large Band-width:Range of frequencies present in a composite signal.}$
+
+$\textrm{\large Digital signals:Digital signals consist of LEVEL.}$
+
+$\textrm{\large Bit Rate:Number of bits sent per second.}$
+$\textrm{\large unit:bits per seconnd.}$
+
+$\textrm{\large math:5 pages -> 20 lines ,each line ->15 character,1 character->8 bits}$
+
+$\textrm{\large ans:5*20*15*8=12000 bps.}$
+
+$\textrm{\large Bit length: Distance occupied by one bit on a transmission method.}$
+
+$\textrm{\large Digital signal can be transmitter by ->Baseband transmission->Broadband transmission.}$
 
 i)
 
@@ -228,29 +237,43 @@ i)
 
 
 
+$\textrm{\large IP address:}$
+<ol>
+<li>$\textrm{-An IPv4 addess is a 32 bit address that uniquely and universally defines the conncection of a device ( For example a computer or a router ) to the internet.}$</li>
+<li>$\textrm{An IPv4 address is a 32 bits long.}$</li>
+<li>$\textrm{Two devices on the internet can never have the same address at the same time.}$</li>
+<li>$\textrm{The address space of IPv4 is 2 power 32 or 4294967296 ( more than 4 billion).}$</li>
+</ol>
 
+$\textrm{\large Notations:}$
 
+$\textrm{\large There are two prevalent notations to show on IPv4 address:Binary and dotted decimal notation.}$
 
-IP address:
--An IPv4 addess is a 32 bit address that uniquely and universally defines the conncection of a device ( For example a computer or a router ) to the internet.
--An IPv4 address is a 32 bits long.
--Two devices on the internet can never have the same address at the same time.
--The address space of IPv4 is 2^32 or 4294967296 ( more than 4 billion).
-Notations:
--There are two prevalent notations to show on IPv4 address:Binary and dotted decimal notation.
--Binary notation :01110101 10010101 00011101 00000010
-Dotted decimal notation:117:149:29:2
-Notation of IPv4 address :A:B:C:D(only 4 octates)
-0<=A,B,C,d<=255
-0.0.0.0 to 255.255.255.255
-Converting IP address from binary to decimal:
-EX:Convert the IPv4 address from binary to dotted decimal notation.
-10000001 00001011 01001011 11101111
-129       11         75        239
-Converting IP address from decimal to binary:
-EX:Converting the IPv4 address from dotted-decimal to binary notation.
-145.14.6.8
-10010001 00001110 00000110  00001000
+$\textrm{\large Binary notation :01110101 10010101 00011101 00000010}$
+
+$\textrm{\large Dotted decimal notation:117:149:29:2}$
+
+$\textrm{\large Notation of IPv4 address :A:B:C:D(only 4 octates)}$
+
+$\textrm{\large 0<=A,B,C,d<=255}$
+
+$\textrm{\large 0.0.0.0 to 255.255.255.255}$
+
+$\textrm{\Large Converting IP address from binary to decimal:}$
+
+$\textrm{\large EX:Convert the IPv4 address from binary to dotted decimal notation.}$
+
+$\textrm{\large 10000001 00001011 01001011 11101111}$
+
+$\textrm{\large 129       11         75        239}$
+
+$\textrm{\Large Converting IP address from decimal to binary:}$
+
+$\textrm{\large EX:Converting the IPv4 address from dotted-decimal to binary notation.}$
+
+$\textrm{\large 145.14.6.8}$
+
+$\textrm{\large 10010001 00001110 00000110  00001000}$
 
 
 |  $.$  |  $First Byte$   | $Second Byte$ | $Third Byte$ | $Fourth Byte$ |
