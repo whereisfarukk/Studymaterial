@@ -79,6 +79,6 @@ public class Main {
     }
 }
 ```
-In this example, there is an association between the Driver class and the Car class. The Driver class has a reference to a Car object.
+$\textrm{\large In this example, there is an association between the \textbf{“Driver”} class and the \textbf{“Car”} class. The \textbf{“Driver”} class has a}$ $\textrm{\large reference to a \textbf{“Car”} object.}$
 
-In the main() method, we create a Car object with the model "Toyota Camry". We then create a Driver object named "John Doe" and pass the Car object to the Driver constructor. Finally, we print the driver's name and the model of the car they are associated with.
+$\textrm{\large In the \textbf{“main()”} method, we create a \textbf{“Car”} object with the model "Toyota Camry". We then create a \textbf{“Driver”}}$ $\textrm{\large object named "John Doe" and pass the \textbf{“Car”} object to the \textbf{“Driver”} constructor. Finally, we print the driver's}$ $\textrm{\large name and the model of the car they are associated with.}$
