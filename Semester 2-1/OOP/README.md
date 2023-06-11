@@ -14,8 +14,9 @@ class Printer implements Printable {
     }
 }
 ```
-In this example, the Printer class realizes the Printable interface by implementing the print() method defined in the interface. The Printer class provides its own implementation for the print() method.
-It's important to note that realization is specific to interfaces in Java. 
+$\textrm{\large In this example, the \textbf{“Printer”} class realizes the \textbf{“Printable”} interface by implementing the \textbf{“print()”} method defined in the}$  $\textrm{\large interface. The \textbf{“Printer”} class provides its own implementation for the \textbf{“print()”} method.}$
+
+$\textrm{\large It's important to note that realization is specific to interfaces in Java.}$
 ### Generalization/Inheritance :
 ```java
 // Base class
@@ -32,7 +33,7 @@ class Dog extends Animal {
     }
 }
 ```
-In this example, the Dog class inherits from the Animal class using the extends keyword. The Dog class can access the eat() method defined in the Animal class, and it also has its own method bark(). The Dog class inherits the behavior of the Animal class and adds its own specific behavior.
+$\textrm{\large In this example, the \textbf{“Dog”} class inherits from the \textbf{“Animal”} class using the \textbf{“extends”} keyword. The \textbf{“Dog”} class can access}$ $\textrm{\large the \textbf{“eat()”} method defined in the \textbf{“Animal”} class, and it also has its own method \textbf{“bark()”}. The \textbf{“Dog”} class inherits the}$ $\textrm{\large behavior of the \textbf{“Animal”} class and adds its own specific behavior.}$
 
 ### association:
 ```java
