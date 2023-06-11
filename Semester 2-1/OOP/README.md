@@ -14,7 +14,8 @@ class Printer implements Printable {
     }
 }
 ```
-
+In this example, the Printer class realizes the Printable interface by implementing the print() method defined in the interface. The Printer class provides its own implementation for the print() method.
+It's important to note that realization is specific to interfaces in Java. 
 ### Generalization/Inheritance :
 ```java
 // Base class
@@ -31,6 +32,7 @@ class Dog extends Animal {
     }
 }
 ```
+In this example, the Dog class inherits from the Animal class using the extends keyword. The Dog class can access the eat() method defined in the Animal class, and it also has its own method bark(). The Dog class inherits the behavior of the Animal class and adds its own specific behavior.
 
 ### association:
 ```java
