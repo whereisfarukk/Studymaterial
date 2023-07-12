@@ -79,13 +79,13 @@ $\textrm{v.message delivery option- unicast ,multicast,broadcast}$
 
 
 #### peer to peer network:
- $-no centralize administration$
+ $\textrm{-no centralize administration}$
  
- $-all peers are same$
+ $\textrm{-all peers are same}$
  
- $-simple sharing application$
+ $\textrm{-simple sharing application}$
  
- $-not scaleable$
+ $\textrm{-not scaleable}$
  
  #### Classification of computer network:
  $\textrm{LAN-Limites Area Network}$
