@@ -21,5 +21,9 @@
     - $\textrm{\large SOLID Principle }$
     - [all the resources](https://shuhanmirza.medium.com/s-o-l-i-d-principle-the-superheros-guide-to-writing-clean-code-d67324506ecf)
  
+  - ## $\textrm{\Large 5th Class-}$
+    - $\textrm{\large Design pattern }$
+    - [Video tutorial](https://mega.nz/folder/uYkW2SaQ#lICd3dWUrrKo5WVtxWq2RQ)
+ 
     
 
