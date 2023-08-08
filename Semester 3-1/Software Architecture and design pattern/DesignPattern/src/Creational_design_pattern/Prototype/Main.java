@@ -2,11 +2,16 @@ package Creational_design_pattern.Prototype;
 
 public class Main {
     public static void main(String[] args) {
-        Circle c1=new Circle(2,3,4);
-        c1.color="red";
-        c1.draw();
+        Shape circlePrototype = new Circle("Red", 5);
+        Shape rectanglePrototype = new Rectangle("Blue", 8, 6);
 
-        Circle c2 = c1.CLONE();
-        c2.draw();
+        Shape clonedCircle = circlePrototype.clone();
+        Shape clonedRectangle = rectanglePrototype.clone();
+
+        circlePrototype.draw();
+        clonedCircle.draw();
+
+        rectanglePrototype.draw();
+        clonedRectangle.draw();
     }
 }
