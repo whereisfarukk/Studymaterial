@@ -1,2 +1,2 @@
 
-![This is an image](https://github.com/whereisfarukk/Studymaterial/blob/main/Semester%203-1/Software%20Architecture%20and%20design%20pattern/DesignPattern/src/Photos/Composite_design_UML.png)
+![This is an image](https://github.com/whereisfarukk/Studymaterial/blob/main/Semester%203-1/Software%20Architecture%20and%20design%20pattern/DesignPattern/src/Photos/Composite_design_UML.jpg)
