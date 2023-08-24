@@ -68,7 +68,7 @@ $\textrm{\large Task2:Learn Latex from manual.}$
 
 $\textrm{\large {\color{orange}Next Week Work} }$
 <ol>
-   <li>$\textrm{Research proposal draft}$</li>
+   <li>$\textrm{Research proposal draft with title}$</li>
    <li>$\textrm{Read a research paper and give presentation on it}$</li>
    <li>$\textrm{350 project data base schema printed copy showing}$</li>
 </ol>
