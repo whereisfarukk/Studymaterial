@@ -1,1 +1,16 @@
 ## Readme
+
+## 27/8/23
+
+2.1 SOFTWARE TESTING TERMINOLOGY
+Bug:
+Error:
+Test Case:
+
+2.1.2 LIFE CYCLE OF A BUG
+2.1.3 STATES OF A BUG:
+
+2.2 SOFTWARE TESTING LIFE CYCLE (STLC)
+Test Execution: p-49
+
+
