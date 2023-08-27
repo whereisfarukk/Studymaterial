@@ -2,17 +2,16 @@
 
 ## 27/8/23
 
-2.1 SOFTWARE TESTING TERMINOLOGY
-Bug:
-Error:
-Test Case:
+$\textrm{\large 2.1 SOFTWARE TESTING TERMINOLOGY}$
 
-2.1.2 LIFE CYCLE OF A BUG
-2.1.3 STATES OF A BUG:
+$\textrm{\large 2.1.2 LIFE CYCLE OF A BUG}$
 
-2.2 SOFTWARE TESTING LIFE CYCLE (STLC)
-Test Execution: p-49
+$\textrm{\large 2.1.3 STATES OF A BUG:}$
 
-Java for unit testing
+$\textrm{\large 2.2 SOFTWARE TESTING LIFE CYCLE (STLC)}$
+
+$\textrm{\large Test Execution: {\color{green}p-49}}$
+
+$\textrm{\large Next Class: {\color{orange}Java for unit testing.}}$
 
 
