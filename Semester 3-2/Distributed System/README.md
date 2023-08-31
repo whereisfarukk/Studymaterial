@@ -1,3 +1,10 @@
+## Syllabus
+[You need to finish the topic mentioned in this repo](https://github.com/donnemartin/system-design-primer)
+
+[A helpful repo to keep you busy for life]( https://github.com/EbookFoundation/free-programming-books)
+
+
+
 ## Lab Task
 $\textrm{\Large {\color{orange}Task - 1} : Peer to Peer Chat Application using Socket Programming + Java }$
 
