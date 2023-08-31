@@ -4,7 +4,7 @@ $\textrm{\Large {\color{orange}Task - 1} : Peer to Peer Chat Application using S
 ## Theory
 
 ### //23
-$\textrm{\large Chapter 1 :}$
+$\textbf{\large Chapter 1 :}$
 
 <ol>
    <li>$\textrm{\large Characteristic of Distributed System}$</li>
@@ -17,7 +17,7 @@ $\textrm{\large Chapter 1 :}$
    <li>$\textrm{\large Quality of Service}$</li>
 </ol>
 
-$\textrm{\large Chapter 2 :}$
+$\textbf{\large Chapter 2 :}$
 <ol>
    <li>$\textrm{\large System Model}$</li>
    <li>$\textrm{\large Physical Model}$</li>
