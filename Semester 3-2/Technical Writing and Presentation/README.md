@@ -72,7 +72,13 @@ $\textrm{\large {\color{orange}Next Week Work} }$
    <li>$\textrm{Read a research paper and give presentation on it}$</li>
    <li>$\textrm{350 project data base schema printed copy showing}$</li>
 </ol>
-   
+
+## 7/9/23
+
+$\textrm{\large Finalizing database schema.}$
+
+$\textrm{\large Start developing the project.}$
+
 
 
 
