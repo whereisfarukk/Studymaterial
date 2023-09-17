@@ -31,3 +31,11 @@ $\textbf{\large Chapter 2 :}$
    <li>$\textrm{\large Architectural Model}$</li>
    <li>$\textrm{\large Fundamental Model}$</li>
 </ol>
+
+### 17/9
+<ol>
+ <li>$\textrm{\large 3.1: Layerd protocol}$</li>
+ <li>$\textrm{\large 3.2 :Remote procedure call}$</li>
+ <li>$\textrm{\large 3.3 : Remote object Invocation}$</li>
+ <li>$\textrm{\large 3.4: message oriented Communication --(persistent vs transient),(synchronous vs asynchronous) ,Berkeley Sockets}$</li>
+</ol>
