@@ -26,7 +26,19 @@ Agile model is a text model.
 
 2.Diagramatic:
 (graph) feature->size->effort->cost,effort->schedule->defects,size -> defects
-
+```mermaid
+flowchart LR;
+1(feature)
+2(size)
+3(effort)
+4(cost)
+5(schedule)
+6(defects)
+style 1 fill:#355E3B
+1--->2--->3--->4
+3--->5--->6
+2--->6
+```
 3.Algorithm.
 
 effort = schedule * resource
