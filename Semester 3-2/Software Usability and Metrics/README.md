@@ -8,24 +8,25 @@ int foo(int a)
 }
 ```
 
-#how many line are in there-(4,3,6),all are correct.Ans are depends on the question.
+$\textrm{\large How many line are in there-(4,3,6)? All are correct.Ans are depends on the question.}$
 
-What is measurement model?
-=>making the unmeasureable measureable.
+$\textrm{\large What is measurement model?}$
 
-#Types of model
-1.Text
-2.Diagramatic
-3.Algorithm.
+$\textrm{\large =>making the unmeasureable measureable.}$
+
+$\textrm{\large Types of model : }$
+<ol>
+  <li>$Text$</li>
+  <li>$Diagramatic$</li>
+  <li>$Algorithm.$</li>
+</ol>
+
+$\textrm{\large 1.Text: }$
+
+$\textrm{\large Defects: Incompletenese of the product or wrong use case etc.Agile model is a text model.}$
 
 
-1.Text:
-
-Defects: Incompletenese of the product or wrong use case eyc.
-Agile model is a text model.
-
-2.Diagramatic:
-(graph) feature->size->effort->cost,effort->schedule->defects,size -> defects
+$\textrm{\large 2.Diagramatic:}$
 ```mermaid
 flowchart LR;
 1(feature)
@@ -39,21 +40,33 @@ style 1 fill:#355E3B
 3--->5--->6
 2--->6
 ```
-3.Algorithm.
+$\textrm{\large 3.Algorithm:}$
 
 effort = schedule * resource
        = A*(Sizeof Program^B)+C
 
 response time : diagram
 
-ResponseTime = (start of decorate - end of decorate)
+$\textrm{\large ResponseTime = (start of decorate - end of decorate)}$
 
-how to measure anything? nije pora.
+$\textrm{\large How to measure anything?}$ nije pora.
 
-Another model:
-Meta model for metrics:
+$\textrm{\Large Another model:}$
+
+$\textrm{\large Meta model for metrics:}$
+
 define concept(response time)-> define(how to measure time)(average response time in one hour(absatruct)) -> operational definition(clearing abstruct definition)(avaerage response time in one hour(calculation))->measurement of real world.
+```mermaid
+flowchart TD;
 
+    root1{{define concept}}
+
+    1(define)
+    2(operational definition)
+    3(measurement of real world)
+    style root1 fill:#424949
+    root1-->1-->2-->3
+```
 
 
 
