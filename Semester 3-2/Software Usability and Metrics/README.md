@@ -84,6 +84,6 @@ define concept(response time)-> define(how to measure time)(average response tim
 ### Index of Variation: Standard Deviation/mean.
 
 
-
+End of 3rd chapter
 
 
