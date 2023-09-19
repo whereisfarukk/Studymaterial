@@ -99,17 +99,13 @@ $\textrm{\large Range:between low and high point in data.}$
 $\textrm{\large Daviation:Mean -> distance.}$
 ```math
 \begin{flalign}
-\textrm{ Range:between low and high point in data.} \\
-\textrm{\textrm{ Daviation:Mean -> distance.} \\
-\textrm{Variance: \sum_{}^{} \frac{Deviations^{2}}{N} } \\
-\textrm{\textrm{ Standard Deviation:\sqrt{Variance} }
+\textrm{\large Range: Between low and high point in data.} \\ \\
+\textrm{\large Daviation:Mean -> distance.} \\ \\
+\textrm{\large Variance:} \sum_{}^{} \frac{\textrm{\large Deviations}^{2}}{\large N}  \\ \\
+\textrm{\large Standard Deviation:}\sqrt{\textrm{\large Variance}} \\ \\
+\textrm{\large Index of Variation:} \frac{\textrm{\large Standard Deviation}}{\large Mean} \\
 \end{flalign} 
 ```
-
-$\textrm{\large Standard Deviation:rootof(Variance).}$
-
-$\textrm{\large Index of Variation: Standard Deviation/mean.}$
-
 
 End of 3rd chapter
 
