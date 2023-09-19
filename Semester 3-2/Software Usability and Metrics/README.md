@@ -1,11 +1,12 @@
 # 9/19
-
+```C++
 // this fun take a number
 int foo(int a)
 {
   //return square
    return a*a;
 }
+```
 
 #how many line are in there-(4,3,6),all are correct.Ans are depends on the question.
 
