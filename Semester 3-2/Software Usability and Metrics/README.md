@@ -72,41 +72,43 @@ flowchart TD;
 
 
 
-# Measurement scale
-1.Nominal(mode)
-2.Ordinal(median)
-3.Interval(mode,medium,mean)
-4.Ratio
-5.Absolute
+### Measurement scale
 
-1.Nominal:Unordered set of categories.
+<ol>
+  <li>$\textrm{\large Nominal(mode)}$ </li>
+  <li>$\textrm{\large Ordinal(median)}$</li>
+  <li>$\textrm{\large Interval(mode,medium,mean)}$</li>
+  <li>$\textrm{\large Ratio}$</li>
+  <li>$\textrm{\large Absolute}$</li>
+</ol>
 
+$\textrm{\large 1.Nominal:Unordered set of categories.}$
 
-2.Ordinal:Ordered set of categories.Can't compare with each other categorie.Like we cant say 2 major bug > 4 minor bug.
+$\textrm{\large 2.Ordinal:Ordered set of categories.Can't compare with each other categorie.Like we cant say 2 major bug > 4 minor bug.}$
 
+$\textrm{\large 3.Interval:If there is consistent difference, we measure it via interval.}$
 
-3.Interval:If there is consistent difference, we measure it via interval.
+$\textrm{\large 4.Ratio:}$
 
+$\textrm{\large 5.Absolute: Number of occurance.There is no negative value.}$
 
-4.Ratio:
+#### Variability
 
-5.Absolute: Number of occurance.There is no negative value.
+$\textrm{\large Range:between low and high point in data.}$
 
+$\textrm{\large Daviation:Mean -> distance.}$
+```math
+\begin{flalign}
+\textrm{ Range:between low and high point in data.} \\
+\textrm{\textrm{ Daviation:Mean -> distance.} \\
+\textrm{Variance: \sum_{}^{} \frac{Deviations^{2}}{N} } \\
+\textrm{\textrm{ Standard Deviation:\sqrt{Variance} }
+\end{flalign} 
+```
 
+$\textrm{\large Standard Deviation:rootof(Variance).}$
 
-
-#Variability
-
-### Range:between low and high point in data.
-
-### Daviation:Mean -> distance.
-
-### Variance: sumof(Deviations^2/N)
-
-
-### Standard Deviation:rootof(Variance)
-
-### Index of Variation: Standard Deviation/mean.
+$\textrm{\large Index of Variation: Standard Deviation/mean.}$
 
 
 End of 3rd chapter
