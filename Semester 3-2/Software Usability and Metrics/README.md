@@ -42,8 +42,13 @@ style 1 fill:#355E3B
 ```
 $\textrm{\large 3.Algorithm:}$
 
-effort = schedule * resource
-       = A*(Sizeof Program^B)+C
+```math
+\begin{flalign}
+ \textrm{\large effort} &=  \textrm{\large schedule} \times  \textrm{\large resource} \\ \\
+ &= \textrm{\large A} \times {\textrm{\large (sizeof program)}}^B + \textrm{\large C} \\ \\
+
+\end{flalign} 
+```
 
 response time : diagram
 
@@ -55,7 +60,13 @@ $\textrm{\Large Another model:}$
 
 $\textrm{\large Meta model for metrics:}$
 
-define concept(response time)-> define(how to measure time)(average response time in one hour(absatruct)) -> operational definition(clearing abstruct definition)(avaerage response time in one hour(calculation))->measurement of real world.
+$\textrm{\large define concept => response time.}$
+
+$\textrm{\large define => how to measure time(average response time in one hour(absatruct))}$
+
+$\textrm{\large operational definition => clearing abstruct definition(avaerage response time in one hour(calculation)}$
+
+$\textrm{\large measurement of real world.}$
 ```mermaid
 flowchart TD;
 
@@ -94,9 +105,6 @@ $\textrm{\large 5.Absolute: Number of occurance.There is no negative value.}$
 
 #### Variability
 
-$\textrm{\large Range:between low and high point in data.}$
-
-$\textrm{\large Daviation:Mean -> distance.}$
 ```math
 \begin{flalign}
 \textrm{\large Range: Between low and high point in data.} \\ \\
