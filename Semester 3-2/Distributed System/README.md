@@ -39,3 +39,16 @@ $\textbf{\large Chapter 2 :}$
  <li>$\textrm{\large 3.3 : Remote object Invocation}$</li>
  <li>$\textrm{\large 3.4: message oriented Communication --(persistent vs transient),(synchronous vs asynchronous) ,Berkeley Sockets}$</li>
 </ol>
+
+### 26/9
+$\textrm{\large 2.5 -> Stream-Oriented Communication}$
+<ul>
+   <li>$\textrm{\large Support for continuous media(1), (2), (3), (4)}$</li>
+   <li>$\textrm{\large Streams and Quality of Service(1), (2),(3),(4),(5)}$</li>
+   <li>$\textrm{\large Stream Synchronization(1),(2),(3)}$</li>
+   <li>$\textrm{\large End of chapter 3}$</li>
+</ul>
+
+
+
+
