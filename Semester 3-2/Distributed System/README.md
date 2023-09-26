@@ -33,12 +33,12 @@ $\textbf{\large Chapter 2 :}$
 </ol>
 
 ### 17/9
-<ol>
+<ul>
  <li>$\textrm{\large 3.1: Layerd protocol}$</li>
  <li>$\textrm{\large 3.2 :Remote procedure call}$</li>
  <li>$\textrm{\large 3.3 : Remote object Invocation}$</li>
  <li>$\textrm{\large 3.4: message oriented Communication --(persistent vs transient),(synchronous vs asynchronous) ,Berkeley Sockets}$</li>
-</ol>
+</ul>
 
 ### 26/9
 $\textrm{\large {\color{green}2.5} -> Stream-Oriented Communication}$
