@@ -41,7 +41,7 @@ $\textbf{\large Chapter 2 :}$
 </ol>
 
 ### 26/9
-$\textrm{\large 2.5 -> Stream-Oriented Communication}$
+$\textrm{\large {\color{green}2.5} -> Stream-Oriented Communication}$
 <ul>
    <li>$\textrm{\large Support for continuous media(1), (2), (3), (4)}$</li>
    <li>$\textrm{\large Streams and Quality of Service(1), (2),(3),(4),(5)}$</li>
