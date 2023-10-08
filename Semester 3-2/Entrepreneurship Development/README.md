@@ -9,3 +9,4 @@ Patent and trademark comparision.
 
 Chapter 7 summary.
 Next class :feasibility analysis.
+Term test:next class(open book)
