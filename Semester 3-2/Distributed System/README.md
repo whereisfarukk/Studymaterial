@@ -52,4 +52,12 @@ $\textrm{\large {\color{green}2.5} -> Stream-Oriented Communication}$
 ### 10/10
 $\textrm{\large gRPC }$
 
+$\textrm{\large {\color{orange}Assignment :gRPC, consumer(client),producer(server)}}$
 
+$\textbf{\large When login consumer can register,and this registration information will save in sql .By the information of registration ,consumer can:}$
+<ul>
+   <li>$\textrm{\large login}$</li>
+   <li>$\textrm{\large set profile}$</li>
+   <li>$\textrm{\large view profile}$</li>
+   <li>$\textrm{\large update  profile}$</li>
+</ul>
