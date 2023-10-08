@@ -54,7 +54,7 @@ $\textrm{\large gRPC }$
 
 $\textrm{\large {\color{orange}Assignment :gRPC, consumer(client),producer(server)}}$
 
-$\textbf{\large When login consumer can register,and this registration information will save in sql .By the information of registration ,consumer can:}$
+$\textrm{\large When login consumer can register,and this registration information will save in sql .By the information of registration ,consumer can:}$
 <ul>
    <li>$\textrm{\large login}$</li>
    <li>$\textrm{\large set profile}$</li>
