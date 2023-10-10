@@ -147,12 +147,15 @@ $\textrm{\large IFPUC an organization arrange a way to calculate functionality-}
 </ol>
 
 $\textrm{\large Function point:}$
+
 $\textrm{\large UFP=∑complexity rating}$
 
 $\textrm{\large VAP=}$
+
 $\textrm{\large AFP=UFP*(0.65+0.01*VFP)}$
 
-$\textrm{\large Software productivity research proposed another methid:}$
-$\textrm{\large Formula=> AFP=UFP+(0.4+0.1(PC+DC)}$
+$\textrm{\large Software productivity research proposed another method:}$
+
+$\textrm{\large Formula : AFP=UFP+(0.4+0.1(PC+DC)}$
 
 $\textrm{\large Book page : 45 (Math)}$
