@@ -117,4 +117,42 @@ $\textrm{\large 5.Absolute: Number of occurance.There is no negative value.}$
 
 End of 3rd chapter
 
+### 10/10
+$\textrm{\large Chapter :4}$
+$\textrm{\large Software Size= LOC(line of code) better version KLOC(1K LOC) }$
+$\textrm{\large Another way is NKLOC(Non commented  thousand line of code)}$
+$\textrm{\large Grearing factor:}$
+Language  		Grearing factor
+C++			55
+Java 			53
+C			128
+$\textrm{\large Nasa proposed the models:}$
+<ol>
+  <li>$\textrm{\large Reduced vervation}$ </li>
+  <li>$\textrm{\large Slightly modified = 25%>modified}$</li>
+  <li>$\textrm{\large extensively modified}$</li>
+  <li>$\textrm{\large New->100% modified}$</li>
+</ol>
 
+$\textrm{\large How to calculate functionality:}$
+
+$\textrm{\large IFPUC an organization arrange a way to calculate functionality-}$
+
+<ol>
+  <li>$\textrm{\large Input}$ </li>
+  <li>$\textrm{\large output}$</li>
+  <li>$\textrm{\large Data file}$</li>
+  <li>$\textrm{\large Interface}$</li>
+  <li>$\textrm{\large Inquires}$</li>
+</ol>
+
+$\textrm{\large Function point:}$
+$\textrm{\large UFP=∑complexity rating}$
+
+$\textrm{\large VAP=}$
+$\textrm{\large AFP=UFP*(0.65+0.01*VFP)}$
+
+$\textrm{\large Software productivity research proposed another methid:}$
+$\textrm{\large Formula=> AFP=UFP+(0.4+0.1(PC+DC)}$
+
+$\textrm{\large Book page : 45 (Math)}$
