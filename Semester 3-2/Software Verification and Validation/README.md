@@ -39,6 +39,15 @@ $\textrm{\Large Exam syllabus: chapter (1-8)}$
      <li>$\textrm{\large Roboustness Testing}$</li>
    </ul>
   </li>
+  <li>$\textrm{\large Chapter 5:}$
+   <ul>
+     <li>$\textrm{\large Need Of White-box Testing(5.1)}$</li>
+     <li>$\textrm{\large Logic coverage criteria(definition)(5.2)}$</li>
+     <li>$\textrm{\large Basis of path testing(5.3)}$</li>
+     <li>$\textrm{\large Example(1-4) {\color{green}p-143}}$</li>
+     <li>$\textrm{\large Graph matrices(5.4)}$</li>
+   </ul>
+  </li>
   <li>$\textrm{\large Chapter 6:}$
    <ul>
      <li>$\textrm{\large Static Type Testing}$</li>
