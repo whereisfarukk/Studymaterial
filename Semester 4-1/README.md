@@ -12,7 +12,7 @@
 
        section Mon
        Computer Graphics(RS)       :14-00,17-00
-        BREAK                  : 13-00,14-00
+        BREAK                  : active,13-00,14-00
 
        section Tue
         Software Project Management(AHS)      :11-00, 13-00
