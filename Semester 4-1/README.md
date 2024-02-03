@@ -7,7 +7,8 @@
        title Class routine of 4-1
        
        section  Sun
-       Computer Graphics(RS)      :09-00, 10-00
+       Computer Graphics(RS)      :09-00, 11-00
+       Software Project Management(AHS)      :11-00, 13-00
        Human computer Interaction(ES)      :14-00,17-00
 
        section Mon
