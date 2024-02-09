@@ -73,3 +73,45 @@ int main() {
 
 }
 ```
+
+ ```math
+\begin{aligned} 
+ \textrm{\large Output for the Case 1: (1,1), (8,4)} \\
+
+ \end{aligned} 
+```
+
+| | $\textrm{\large x}$ | $\textrm{\large y}$ | |
+|---|---|---|---|
+| |   1   |  1   | |
+| |   2   |  1   | |
+| |   3   |  2   | |
+| |   4   |  2   | |
+| |   5   |  3   | |
+| |   6   |  3   | |
+| |   7   |  4   | |
+| |   8   |  4   | |
+
+ ```math
+\begin{aligned} 
+ \textrm{\large Output for the Case 1: (1,1), (8,4)} \\
+
+ \end{aligned} 
+```
+| | $\textrm{\large x}$ | $\textrm{\large y}$ | |
+|---|---|---|---|
+| |   1   |  1   | |
+| |   1   |  2   | |
+| |   2   |  3   | |
+| |   2   |  4   | |
+| |   3   |  5   | |
+| |   3   |  6   | |
+| |   4   |  7   | |
+| |   4   |  8   | |
+
+
+
+
+
+
+
