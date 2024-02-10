@@ -94,7 +94,7 @@ int main() {
 
  ```math
 \begin{aligned} 
- \textrm{\large Output for the Case 1: (1,1), (8,4)} \\
+ \textrm{\large Output for the Case 1: (1,1), (4,8)} \\
 
  \end{aligned} 
 ```
