@@ -110,7 +110,15 @@ int main() {
 | |   4   |  8   | |
 
 
+$\textrm{\LARGE Adjustments for m > 1}$
 
+$\textrm{\large This algorithm will also work for slope > 1 as it will goes through x - axis or y- axis depending on which one is more }$<br> $\textrm{\large dominent. For example: for slope < 1 the x - axis is dominent and we increase x axis by 1 in each increment and for}$ $\textrm{\large slope > 1 the y - axis is dominent and we increase y axis by 1 in each increment.}$
+<ul>
+    <li>$\textrm{\large we can swap the (x1, y1) with (y1, x1) and (x2, y2) with (y2, x2)}$</li> 
+     <li>$\textrm{\large which will make the slope in the range 0 < slope < 1 }$</li>
+     <li>$\textrm{\large then we can use the above algorithm to get the points.}$</li>
+     <li>$\textrm{\large lastly we can reswap (x,y) with (y,x) to get the proper result.}$</li>
+</ul>
 
 
 
